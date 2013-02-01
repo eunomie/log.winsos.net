@@ -1,0 +1,37 @@
+---
+layout: master
+---
+
+%article
+  = content
+
+  %footer
+    %p
+      Si vous le souhaitez, voici quelques moyens de me joindre / d'en savoir plus sur moi :
+
+    %nav
+      %ul
+        %li
+          %a.icon-book.big{:href => "cv_Yves_Brissaud.pdf"}
+            Curriculum Vitae (pdf)
+        - if @contents.account? "twitter"
+          %li
+            %a.icon-twitter-sign.color.big{:href => "#{@contents.account "twitter"}"}
+              Mon compte twitter
+        - if @contents.account? "gplus"
+          %li
+            %a.icon-google-plus-sign.color.big{:href => "#{@contents.account "gplus"}?rel=author"}
+              Mon compte Google +
+        - if @contents.account? "github"
+          %li
+            %a.icon-github-sign.color.big{:href => "#{@contents.account "github"}"}
+              Mon compte Github
+        - if @contents.account? "linkedin"
+          %li
+            %a.icon-linkedin-sign.color.big{:href => "#{@contents.account "linkedin"}"}
+              Mon compte linkedin
+
+%footer
+  = render :partial => "twitter_account"
+  = render :partial => "twitter_share_account"
+  = render :partial => "gplus_share"

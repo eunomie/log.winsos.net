@@ -1,0 +1,13 @@
+%footer
+  %blockquote
+    Powered by
+    %em.icon-cogs
+      %a{:href => "https://github.com/CrEv/wlt", :target => "_blank"}
+        Web Log Today
+:javascript
+  var pkBaseURL=document.location.protocol+'//log.winsos.net/statistics/';document.write(unescape("%3Cscript src='"+pkBaseURL+"piwik.js' type='text/javascript'%3E%3C/script%3E"));
+:javascript
+  try{var piwikTracker=Piwik.getTracker(pkBaseURL+"piwik.php",4);piwikTracker.trackPageView();piwikTracker.enableLinkTracking();}catch(err){}
+%noscript
+  %p
+    %img(src="http://log.winsos.net/statistics/piwik.php?idsite=4" style="border:0" alt="")

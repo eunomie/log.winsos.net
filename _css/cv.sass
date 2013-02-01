@@ -1,0 +1,42 @@
+@import "application"
+
+
+@mixin rebase($rebase03,$rebase02,$rebase01,$rebase00,$rebase0,$rebase1,$rebase2,$rebase3)
+  @include accentize($blue, $rebase0, $rebase02)
+  h1
+    @include accentize($yellow, $rebase0, $rebase02)
+    color: $yellow
+    text-align: center
+    margin-top: 2em
+    margin-bottom: 1em
+  h2
+    margin-top: 2em
+    margin-bottom: 1em
+  h3
+    margin-left: 2em
+    @include accentize($green, $rebase0, $rebase02)
+    color: $green
+    margin-top: 2.5em
+    margin-bottom: 0.5em
+  h4
+    @include accentize($rebase01, $rebase0, $rebase02)
+    color: $rebase01
+    text-align: right
+    margin-top: 0.2em
+    margin-bottom: 0.5em
+    float: right
+    width: 122px
+    margin-left: 5px
+    display: inline-block
+    position: relative
+    top: -2em
+    font-size: 80%
+
+  em
+    color: $rebase01
+
+
+html, .light
+  @include rebase($base3,$base2,$base1,$base0,$base00,$base01,$base02,$base03)
+.dark
+  @include rebase($base03,$base02,$base01,$base00,$base0,$base1,$base2,$base3)

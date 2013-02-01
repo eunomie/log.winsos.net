@@ -1,0 +1,35 @@
+!!! 5
+%html(lang="en" itemscope itemtype="http://schema.org/Article")
+  %head
+    = render :partial => "header_cv"
+
+  %body(class="cv")
+    = render :partial => "body_header"
+
+    %section.main
+      %article
+        = content
+
+        %footer
+          %h2
+            Divers
+
+          %nav
+            %ul
+              %li
+                %a.icon-book{:href => "cv_Yves_Brissaud.pdf"}
+                  Curriculum Vitae (pdf)
+              - if @contents.account? "github"
+                %li
+                  %a.icon-github-sign.color{:href => "#{@contents.account "github"}"}
+                    Mon compte Github
+              - if @contents.account? "linkedin"
+                %li
+                  %a.icon-linkedin-sign.color{:href => "#{@contents.account "linkedin"}"}
+                    Mon compte linkedin
+
+      %footer
+        = render :partial => "twitter_share_account"
+        = render :partial => "gplus_share"
+
+    = render :partial => "body_footer"
