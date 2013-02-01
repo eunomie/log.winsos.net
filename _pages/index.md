@@ -1,6 +1,6 @@
 ---
 layout: index
-limit: 5
+limit: 10
 ---
 
 # CrEv's log
