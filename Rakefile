@@ -15,3 +15,7 @@ task :deploy => :build do
   sh "rsync --checksum -rtzh --progress --delete _site/ #{config["deploy_to"]}"
 end
 
+desc 'Build site and deploy locally'
+task :deploylocal => :build do
+  sh "rsync --checksum -rtzh --progress --delete _site/ /var/www/log/"
+end
