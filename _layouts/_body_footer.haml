@@ -1,9 +1,17 @@
 %footer
   %blockquote
-    Powered by
-    %em.icon-cogs
-      %a{:href => "https://github.com/CrEv/wlt", :target => "_blank"}
-        Web Log Today
+    %p
+      Powered by
+      %em.icon-cogs
+        %a{:href => "https://github.com/CrEv/wlt", :target => "_blank"}
+          Web Log Today
+    %p
+      Généré le
+      = DateTime.now.strftime "%F"
+      à partir des
+      %a{:href => "https://github.com/CrEv/log.winsos.net", :target => "_blank"}
+        sources
+
 :javascript
   var pkBaseURL=document.location.protocol+'//log.winsos.net/statistics/';document.write(unescape("%3Cscript src='"+pkBaseURL+"piwik.js' type='text/javascript'%3E%3C/script%3E"));
 :javascript
