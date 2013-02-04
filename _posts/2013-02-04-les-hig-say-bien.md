@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [web_log_today, github]
+tags: [hig, windows, android, mac]
 title: Les HIG say bien
 author: Yves
 email: yves.brissaud@gmail.com
