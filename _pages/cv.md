@@ -13,7 +13,7 @@ published: true
 
 ### Ingénieur développeur — [TEA — The Ebook Alternative][tea]
 
-#### Septembre 2012 — Janvier 2013
+#### Septembre 2012 — Février 2013
 
 _Startup spécialisée dans le livre numérique._
 
