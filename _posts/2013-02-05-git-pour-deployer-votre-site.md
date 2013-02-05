@@ -41,7 +41,7 @@ Facile, non ?
 
 Voici ce qu'il va donc se passer. Sur le serveur web (ça pourrait être en réalité n'importe où ailleurs) un dépôt lié à mes sources va être créé. Il va contenir un `hook` qui sera exécuté juste avant d'intégrer les commits. Ce hook va générer le site et le copier au bon endroit.
 
-Voici donc les quelques étapes à suivrep pour le faire.
+Sans plus attendre, les quelques étapes à suivre pour réaliser tout cela.
 
 1. Sur votre poste, créer un clone `bare` de vos sources. `bare` signifie qu'il ne contient pas de copie locale, en gros ce n'est que le `.git`
 
@@ -49,7 +49,7 @@ Voici donc les quelques étapes à suivrep pour le faire.
     git clone --bare ./your-repo your-repo.git
     ```
 
-2. Copier le `hook` `pre-receive` dans ce dépôt
+2. Copier le `hook` `pre-receive` dans ce dépôt (il est détaillé un peu plus loin)
 
     ```sh
     cp ~/.wlt/tools/pre-receive your-repo.git/hooks/
@@ -62,6 +62,8 @@ Voici donc les quelques étapes à suivrep pour le faire.
     rsync -a --stats --delete ./your-repo.git/ plop@server:~/your-repo.git/
     ```
 
+    Vous pouvez désormais supprimer votre dépôt bare en local, il ne sert plus à grand chose.
+
 4. Viens la partie amusante. On va simplement définir une nouvelle `remote` (un dépôt distant vers lequel on peut pousser les modification) correspondant à notre dépôt
 
     ```sh
@@ -73,6 +75,8 @@ Voici donc les quelques étapes à suivrep pour le faire.
     ```sh
     git push deploy master
     ```
+
+    Et lors de la réception du push côté serveur, le hook sera executé et le code déployé.
 
 Je vous l'avais dit que c'était simple !
 
@@ -131,8 +135,9 @@ cd $SCRATCH_DIR/$GIT_DIR_NAME && bundle exec rake deploylocal
 
 On se déplace dans la copie de travail de ce qu'on push et on exécute la tâche `rake` qui va générer le site à partir de `wlt` puis le copier.
 
+## Fin
 
-Alors, c'était pas si difficile, non ? Ok cette présentation est sommaire, mais elle montre comment, en très peu de temps il est possible de radicalement changer la façon de travailler. Précédemment on avait l'habitude de générer les choses en local puis de les pousser manuellement vers le serveur. Ou au moins de demander tout ça manuellement. Avec les hooks (ce n'est évidemment pas limité à git) il est très simple d'automatiser cela un peu plus. L'avantage pour le développeur est qu'il ne quitte finalement pas ses outils, git ici.
+Alors, c'était pas si difficile, non ? Ok cette présentation est sommaire, mais elle montre comment, en très peu de temps il est possible de radicalement changer la façon de travailler. Précédemment on avait l'habitude de générer les choses en local puis de les pousser manuellement vers le serveur. Ou au moins de demander tout volontairement. Avec les hooks (ce n'est évidemment pas limité à git) il est très simple d'automatiser cela un peu plus. L'avantage pour le développeur est qu'il ne quitte finalement pas ses outils, git ici. Le confort est donc bien meilleur pour le développeur, il n'y a plus à s'en soucier. Et ça fait un peu plus de temps de cerveau disponible pour coder correctement `;-)`
 
 [git]: http://git-scm.org
 [wlt]: https://github.com/CrEv/wlt
