@@ -15,9 +15,11 @@ published: true
 
 #### Septembre 2012 — Février 2013
 
-_Startup spécialisée dans le livre numérique._
+_Startup spécialisée dans la distribution de livres numériques et l’édition de solutions et de services ouverts dans le domaine de la lecture numérique._
 
-* [Application de lecture HTML5 Open Source][teabook] : Application web utilisant les dernières technologies HTML5 (mode offline par exemple) et CSS3, ruby, coffeescript, [monocle][]
+- Développement d'une [application de lecture de livre numériques en HTML5, Open Source][teabook] : Application web utilisant les dernières technologies HTML5 (mode offline par exemple) et CSS3, Coffeescript, [Monocle][monocle], Ruby, RoR, Sass
+
+- Développement de la plateforme de gestion, vente et lecture de livres numériques : php, HTML, CSS, Sass, MySQL
 
 
 ### Ingénieur développeur Javascript / Java — [Business Geografic][bg]
