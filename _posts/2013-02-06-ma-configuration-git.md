@@ -5,7 +5,7 @@ title: Petit aperçu de ma configuration git
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
-published: false
+published: true
 ---
 
 Comme tout bon développeur, vous utilisez [git][]. Par contre, j'espère que vous ne vous limitez pas à la configuration de base. Voici, rapidement, un petit descriptif de la configuration que j'utilise.
