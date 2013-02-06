@@ -82,7 +82,7 @@ in = !git fetch && git log --pretty=oneline --abbrev-commit --graph ..@{u}
 Côté diff, juste un alias pour visualiser rapidement ce qui est déjà ajouté mais en attente de commit :
 
 ```text
-  dic = diff --cached
+dic = diff --cached
 ```
 
 Un petit alias tout bête mais terriblement utile :
