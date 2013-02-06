@@ -8,7 +8,7 @@ twitter: _crev_
 published: false
 ---
 
-Comme toute personne censée, vous utilisez [git][]. Par contre, j'espère que vous ne vous limitez pas à la configuration de base. Voici, rapidement, un petit descriptif de la configuration que j'utilise.
+Comme tout bon développeur, vous utilisez [git][]. Par contre, j'espère que vous ne vous limitez pas à la configuration de base. Voici, rapidement, un petit descriptif de la configuration que j'utilise.
 
 # Outils graphiques
 
@@ -61,54 +61,91 @@ Un classique mais néanmoins pratique log graphique sympa :
 oneline = log --pretty=oneline --abbrev-commit --graph
 ```
 
+Ayant travaillé pendant quelques temps avec [hg][], deux fonctionnalités me manquaient furieusement : pouvoir lister les commits non poussés vers le serveur, et inversement pouvoir lister les commits non récupérés.
+
+Voici donc `git out` et son pendant local (qui ne fetch pas) `git lout` :
+
 ```text
-#outgoing
-  lout = log --pretty=oneline --abbrev-commit --graph @{u}..
-  out = !git fetch && git lout
-  # incoming
-  lin = log --pretty=oneline --abbrev-commit --graph ..@{u}
-  in = !git fetch && git log --pretty=oneline --abbrev-commit --graph ..@{u}
-
-  # diff
-  dic = diff --cached
-  diffstat = diff --stat
-
-  undo = reset --soft HEAD^
-  # add modified files
-  addm = !git-ls-files -m -z | xargs -0 git-add && git status
-  # add unknown files
-  addu = !git-ls-files -o --exclude-standard -z | xargs -0 git-add && git status
-  # delete files marked as deleted
-  rmm  = !git ls-files -d -z | xargs -0 git-rm && git status
-
-  # server files
-  serve = daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
-
-  # merge management
-
-  # $ git edit-unmerged
-  # $ ... edit ...
-  # $ ... test ...
-  # $ git add-unmerged
-  # $ git commit  # or git rebase --continue or whatever
-
-  # sub is a shell alias to launch SublimeText2
-  edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; sub `f`"
-  add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
-
-  # legit
-  switch = !legit switch \"$@\"
-  branches = !legit branches
-  sprout = !legit sprout \"$@\"
-  unpublish = !legit unpublish \"$@\"
-  harvest = !legit harvest \"$@\"
-  sync = !legit sync \"$@\"
-  publish = !legit publish \"$@\"
-  graft = !legit graft \"$@\"
-
-  # add github pull requests
-  pullify = config --add remote.origin.fetch '+refs/pull/*/head:refs/remotes/origin/pr/*'
+lout = log --pretty=oneline --abbrev-commit --graph @{u}..
+out = !git fetch && git lout
 ```
+
+Vous remarquerez `@{u}` qui représente la branche `upstream` et la notaion avec `..` qui permet de n'afficher que les nouveaux commits.
+
+Voici maintenant `git in` et la version sans fetch `git lin` :
+
+```text
+lin = log --pretty=oneline --abbrev-commit --graph ..@{u}
+in = !git fetch && git log --pretty=oneline --abbrev-commit --graph ..@{u}
+```
+
+Côté diff, juste un alias pour visualiser rapidement ce qui est déjà ajouté mais en attente de commit :
+
+```text
+  dic = diff --cached
+```
+
+Un petit alias tout bête mais terriblement utile :
+
+```text
+undo = reset --soft HEAD^
+```
+
+Viens ensuite une série d'alias que j'utilisé énormément, surout le premier. Il s'agit juste d'améliorations autour de `add` et `rm` mais fait gagner pas mal de temps.
+
+```text
+# add modified files
+addm = !git-ls-files -m -z | xargs -0 git-add && git status
+# add unknown files
+addu = !git-ls-files -o --exclude-standard -z | xargs -0 git-add && git status
+# delete files marked as deleted
+rmm  = !git ls-files -d -z | xargs -0 git-rm && git status
+```
+
+En temps normal, je réalise un commit avec les instructions suivantes :
+
+```sh
+git diff
+git addm
+git ci -m "bla bla"
+```
+
+Si jamais mon diff n'est pas propre, en général je remplace `git addm` par un classique mais ô combien utile `git add -p` qui permet de ne commiter que ce qu'on souhaite. Si vous ne l'utilisez pas, je vous conseille réellement d'aller voir. C'est vraiment très pratique et vous permet de faire des commits propre assez facilement. Rien que ce point est une bonne raison de passer d'un svn à un git/hg (avec l'extension `record`).
+
+Mais c'est pas tout, n'oublions pas qu'on parle quand même de système de gestion de version **décentralisé**. Il est donc important de pouvoir servir un dépôt afin de permettre, par exemple, à un collègue de récupérer votre travail sans passer par un serveur central. Surtout que servir du git est quand même plutôt facile :
+
+```text
+serve = daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
+```
+
+Un autre point qui arrive souvent : la gestion des conflits lors des merges. Je dis souvent mais c'est pas tant que ça non plus, git fonctionne tout de même plutôt bien. Par contre, si vous avez plusieurs fichiers en conflits c'est parfois un peu galère à utiliser. Voici donc quelques alias qui vont vous facilité la vie.
+
+Avant de présenter les alias, voici leur usage :
+
+1. Vous venez de faire un merge ou rebase, et il y a des conflits
+2. `git edit-unmerged` va ouvrir l'éditeur de votre choix avec l'ensemble des fichiers en conflits (l'idéal étant même de n'avoir aucun fichier ouverts dans l'éditeur, le travail s'en trouve simplifié)
+3. Correction des conflits
+4. `git add-unmerged` ajoute tous les fichiers en conflit
+5. Selon les cas, `git commit` ou `git rebase --continue` par exemple
+
+Voici donc les deux alias. A noter que dans le premier `sub` est dans mon cas une commande shell ouvrant Sublime Text 2. Vous pouvez aussi envisager d'utiliser `$EDITOR` par exemple.
+
+```text
+edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; sub `f`"
+add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
+```
+
+Et un petit dernier vraiment pratique. Il vous permet d'ajouter des branches à fetcher lorsque vous êtes sur un projet [github][]. Ces branches correspondent aux _pull requests_ et vous permettent donc de les tester en local avant de les accepter. Vous pouvez aussi, un peu dans le même genre, regarder du côté de [hub][].
+
+```text
+pullify = config --add remote.origin.fetch '+refs/pull/*/head:refs/remotes/origin/pr/*'
+```
+
+Lorsque vous clonez un projet github, vous pouvez donc ensuite simplement faire un `git pullify` puis un `git fetch`. Les _pull requests_  seront alors disponibles dans des branches `pr/...`.
+
+## End
+
+Voici, un petit aperçu rapide de ma conf. Au final rien de très spécial, juste une petite collection d'outils et d'alias. Et vous, vous utilisez quoi pour améliorer votre usage de [git][] ?
 
 [git]: http://git-scm.org
 [github]: https://github.com
@@ -122,3 +159,5 @@ oneline = log --pretty=oneline --abbrev-commit --graph
 [hgflow]: https://bitbucket.org/yinwm/hgflow/wiki/Home
 [branching]: http://nvie.com/posts/a-successful-git-branching-model/
 [stgit]: http://www.procode.org/stgit/
+[legit]: http://www.git-legit.org/
+[hub]: http://defunkt.io/hub/
