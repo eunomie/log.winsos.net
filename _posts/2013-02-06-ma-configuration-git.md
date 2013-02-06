@@ -61,6 +61,26 @@ Un classique mais néanmoins pratique log graphique sympa :
 oneline = log --pretty=oneline --abbrev-commit --graph
 ```
 
+Voici par exemple un extrait de mon dépôt [linuxfr-solarized][] (feuille de style pour [linuxfr][]) :
+
+```text
+*   a3be56a Fix conflicts
+|\  
+| * dddf260 Update media queries for small screens
+| * 9fbc38e Update responsive style
+| * c9eda20 Add mediaqueries
+* | d2d2063 Merge branch feature/mediaqueries
+* |   f4ebaec Merge branch 'feature/board' into develop
+|\ \  
+| |/  
+|/|   
+| * 5ade24f Reduce size of board if not in redaction/main board
+| * 30228ce Move board code
+|/  
+* cc35a7a Release compiled versions
+* c99bfb9 fix branding margin
+```
+
 Ayant travaillé pendant quelques temps avec [hg][], deux fonctionnalités me manquaient furieusement : pouvoir lister les commits non poussés vers le serveur, et inversement pouvoir lister les commits non récupérés.
 
 Voici donc `git out` et son pendant local (qui ne fetch pas) `git lout` :
@@ -71,6 +91,15 @@ out = !git fetch && git lout
 ```
 
 Vous remarquerez `@{u}` qui représente la branche `upstream` et la notaion avec `..` qui permet de n'afficher que les nouveaux commits.
+
+Par exemple, au moment où j'écris cela, voici ce que me sort `git lout` :
+
+```text
+* 1a3d1c2 Fix indentation
+* a20a326 Update post title
+```
+
+Il s'agit des deux commits que je viens de réaliser et qui n'ont pas été poussés sur la branche `upstream`.
 
 Voici maintenant `git in` et la version sans fetch `git lin` :
 
@@ -161,3 +190,5 @@ Voici, un petit aperçu rapide de ma conf. Au final rien de très spécial, just
 [stgit]: http://www.procode.org/stgit/
 [legit]: http://www.git-legit.org/
 [hub]: http://defunkt.io/hub/
+[linuxfr-solarized]: https://github.com/CrEv/linuxfr-solarized
+[linuxfr]: http://linuxfr.org
