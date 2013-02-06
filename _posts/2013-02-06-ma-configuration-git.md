@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [git]
-title: Ma configuration git
+title: Petit aperçu de ma configuration git
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
