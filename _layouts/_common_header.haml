@@ -16,7 +16,7 @@
 %meta(name="og:url" content=url)
 %meta(name="twitter:description" content=description)
 - if @scope.image?
-  image = link_to @scope.image
+  - image = link_to @scope.image
   %meta(name="twitter:image" content=image)
 %meta(name="og:description" content=description)
 %meta(itemprop="description" content=description)
