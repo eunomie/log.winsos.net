@@ -22,21 +22,29 @@ Déjà, voici la [documentation][docmageia].
 
 1. Suppression des sources `urpmi` existantes
 
-    urpmi.removemedia -a
+  ```sh
+  urpmi.removemedia -a
+  ```
 
 2. Ajout des sources
 
-    urpmi.addmedia --distrib --mirrorlist http://mirrors.mageia.org/api/mageia.2.$ARCH.list
+  ```sh
+  urpmi.addmedia --distrib --mirrorlist http://mirrors.mageia.org/api/mageia.2.$ARCH.list
+  ```
 
 3. On met à jour !
 
   La documentation indique de le faire avec la commande suivante :
 
-    urpmi --replacefiles --auto-update --auto
+  ```sh
+  urpmi --replacefiles --auto-update --auto
+  ```
 
   Pour ma part j'ai juste fait une petite variation :
 
-    urpmi --replacefiles --auto-update --auto --download-all
+  ```sh
+  urpmi --replacefiles --auto-update --auto --download-all
+  ```
 
   La différence est que tous les paquets vont être téléchargés avant la mise à jour. Il faut de la place dispo, mais ça évite des problèmes. Il n'y a pas longtemps, j'ai eu une mise à jour sur un ordi sous mageia. Le problème était que la carte réseau était pas super bien gérée. Et une mise à jour ramenait des paquets liés à la carte. Donc lorsque la mise à jour est passée, j'ai perdu la connexion, résultat le reste de la mise à jour à foiré. Génial...
 
