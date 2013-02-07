@@ -15,6 +15,8 @@
 %meta(name="twitter:url" content=url)
 %meta(name="og:url" content=url)
 %meta(name="twitter:description" content=description)
+- if @scope.image?
+  %meta(name="twitter:image" content="#{@scope.image}")
 %meta(name="og:description" content=description)
 %meta(itemprop="description" content=description)
 %link{:rel => "icon", :href => link_to("favicon.ico")}
