@@ -5,7 +5,7 @@ title: Chiens chaud
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
-image: min_CAM00604.jpg
+image: 2013/01/15/min_CAM00604.jpg
 ---
 
 Ça faisait un sacré moment que je voulais faire des hot dog. Et voilà, c'est enfin fait !
