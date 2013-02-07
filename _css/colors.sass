@@ -28,8 +28,10 @@ $green:   #859900
 
 @mixin solarized_main($rebase03,$rebase02,$rebase01,$rebase00,$rebase0,$rebase1,$rebase2,$rebase3)
   body
-    border-left: 1px solid $rebase02
-    border-right: 1px solid $rebase02
+    > section, > footer
+      background: rgba($rebase03, 0.9)
+      border-right: 1px solid $rebase02
+      border-left: 1px solid $rebase02
 
     > footer
       border-top: 1px solid $rebase01
@@ -233,9 +235,10 @@ $green:   #859900
   .hire-me
     background: $rebase02
     color: $violet
-    width: 100%
     border-top: 1px solid $rebase01
     border-bottom: 1px solid $rebase01
+    border-right: 1px solid $rebase02
+    border-left: 1px solid $rebase02
 
 
 @mixin accentize($accent, $color1, $color2)
