@@ -46,6 +46,45 @@ Franchement, on n'arrivait pas à tenir des délais sur des projets plus petit, 
 
 J'ai donc poussé pour qu'on utilise des méthodes agiles. Ce fut fait, nous sommes donc passés à [scrum][], en ajustant divers paramètres. De mon côté j'avais en gros un rôle de développeur, _scrum master_ et référent produit (le _product owner_ était un commité de cinq personnes dont j'en étais le référent).
 
+De mon point de vue il y a vraiment eu un gain. Que ce soit finalement en terme de visibilité (alors que les partisants des méthodes traditionnelles le reproche justement) et en terme d'adaptation au changement.
+
+## Et donc, il est où le problème ?
+
+Des problèmes, en fait, il y en a pas mal.
+
+Ok les méthodes agiles c'est mieux, scrum c'est pas mal du tout. Enfin... j'en sais rien au final.
+
+Scrum était vraiment la méthode à la mode il y a tout juste quelques années. J'en ai entendu parlé depuis longtemps. Sur la papier c'est parfait. En vrai, il y a un point qui n'est pas si évident, mais qui à mon avis explique tout de même son adoption : c'est une méthode agile très structurée. Il y a tout un rituel, des réunions, des rôles, des règles. Pour les personnes venant de méthodes plus traditionnelles ça rassure, c'est plus sécurisant.
+
+Sauf que c'est rarement possible de l'appliquer de la sorte. Alors finalement on part de scrum et on adapte. On enlève des choses, on en rajoute, on en modifie certaines. Côté scrum ça a un nom : [scrumbut][]. Voici un exemple :
+
+> (We use Scrum, but) (having a Daily Scrum every day is too much overhead,) (so we only have one per week.)
+
+Honnêtement je ne vois pas vraiment comment on peut appliquer _exactement_ scrum. Et surtout, quel en serait réellement l'intérêt ?
+
+Bon ok, donc on fait du scrum, ou plutôt une méthode dérivée. On s'attache à suivre les principes agile. Sauf que, au final, c'est pas serein. En général, si les équipes de dev sont bien au fait de tout cela, c'est moins le cas pour les autres intervenants (management, direction, etc). Et sans leur implication, ben ça ne marche finaelemnt pas beaucoup mieux qu'avant. Il y a une amélioration intrinsèque au développement mais c'est tout.
+
+
+## Et alors, on fait comment ?
+
+Le résultat c'est que, au final, je suis parfois mitigé sur les méthodes agiles. Ok, on pourrait aussi parler de kanban par exemple. On passe alors à une organisation en flux, je trouve le concept plus intéressant et réaliste. Mais en général cela ne plait pas trop au mangement/direction car la visibilité est différente de ce qu'ils connaissent.
+
+Si on parle de kanban, il faut aussi parler de lean. Et je reviens donc sur le reportage que je regardais. Dans ce reportage on voyait comment dans une usine, ils faisaient la chasse au gaspillage, comment ils cherchaient à minimiser les encours, les pertes, et cherchaient à maximiser la productivité, le rendement.
+
+Sur le papier c'est plutôt sympa. Qui peut être intéressé par les gaspillages ? Les supprimer est une bonne chose. Mais cela se fait au final d'une manière assez particulière, ou l'humain ne devient qu'un rouage, presque une composante maléable.
+
+Items :
+
+* Github
+* satisfaction des employés
+* Valve
+* 37signals
+* Motivation
+
+## Suite ?
+
+Comme vous les savez, ce blog n'a pour l'instant pas de commentaire. Je bosse tout de même dessus ne vous inquiétez pas. Quoi qu'il en soit, si vous souhaitez en discuter n'hésitez surtout pas, via twitter ou g+ par exemple. Je suis vraiment preneur de vos réactions sur le sujet.
+
 [lean]: http://fr.wikipedia.org/wiki/Lean
 [la rache]: http://www.risacher.com/la-rache/
 [cycle en V]: http://fr.wikipedia.org/wiki/Cycle_en_V
@@ -53,3 +92,4 @@ J'ai donc poussé pour qu'on utilise des méthodes agiles. Ce fut fait, nous som
 [manifeste]: http://fr.wikipedia.org/wiki/Manifeste_agile
 [scrum]: http://fr.wikipedia.org/wiki/Scrum_(m%C3%A9thode)
 [kanban]: http://fr.wikipedia.org/wiki/Kanban
+[scrumbut]: http://www.scrum.org/ScrumBut
