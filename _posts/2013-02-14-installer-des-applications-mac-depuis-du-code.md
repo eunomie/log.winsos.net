@@ -5,7 +5,7 @@ title: Installer des applications mac depuis du code
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
-published: false
+published: true
 ---
 
 Récemment j'ai revu une présentation très intéressante (ça fera l'objet d'un prochain billet) de [Zach Holman][holman] (Github) : _["Unsucking your teams development environment"][unsucking]_.
