@@ -9,7 +9,7 @@ published: true
 image: 2013/02/16/boxen.png
 ---
 
-Il y a peu je vous parlais d'un petit projet, [asentaa][], dont le but est juste de faire un petit outil pour installer des programmes sur mac, depuis ruby. Entre autre chose, c'était inspiré de quelques slides et informations en provenance de github, sur le fait d'avoir un outil qui permet d'installer, automagiquement, tout ce qu'il faut sur un ordi vierge afin de pouvoir développer au plus vite sans perdre de temps (en gros).
+Il y a peu je vous parlais d'un petit projet, [asentaa][] - présenté [ici][post], dont le but est juste de faire un petit outil pour installer des programmes sur mac, depuis ruby. Entre autre chose, c'était inspiré de quelques slides et informations en provenance de github, sur le fait d'avoir un outil qui permet d'installer, automagiquement, tout ce qu'il faut sur un ordi vierge afin de pouvoir développer au plus vite sans perdre de temps (en gros).
 
 Evidemment, il semble que github regarde mon blog ou mon compte github. Et il semble que je l'ai ait pris de court puisqu'en réponse à mon projet, ils viennent de publier [boxen][]. Il est absolument impossible que cela ne soit qu'une coincidence !
 
@@ -25,3 +25,5 @@ Quoi qu'il en soit, github montre encore une fois qu'ils utilisent beaucoup d'ou
 
 [asentaa]: https://github.com/CrEv/asentaa
 [boxen]: http://boxen.github.com/
+[post]: http://log.winsos.net/2013/02/14/installer-des-applications-mac-depuis-du-code.html
+
