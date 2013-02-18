@@ -28,7 +28,7 @@ $green:   #859900
 
 @mixin solarized_main($rebase03,$rebase02,$rebase01,$rebase00,$rebase0,$rebase1,$rebase2,$rebase3)
   body
-    > section, > footer
+    > section
       background: rgba(#eeeeec, 0.95)
       border-right: 1px solid $rebase02
       border-left: 1px solid $rebase02
@@ -220,8 +220,9 @@ $green:   #859900
   html.green, .green
     @include accentize($green, $rebase0, $rebase02)
 
-  body > header > nav
+  body > header > nav, body > footer
     text-shadow: 2px 2px 3px #111111
+    color: #eeeeec !important
     a, a:active, a:visited
       color: #eeeeec !important
     .icon-home:before
@@ -234,6 +235,8 @@ $green:   #859900
       color: $blue
     .icon-user:before
       color: $rebase01
+  body > footer
+    text-align: center
 
   .hire-me
     background: $rebase02
