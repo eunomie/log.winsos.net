@@ -11,7 +11,7 @@ image: 2013/02/16/boxen.png
 
 Il y a peu je vous parlais d'un petit projet, [asentaa][] - présenté [ici][post], dont le but est juste de faire un petit outil pour installer des programmes sur mac, depuis ruby. Entre autre chose, c'était inspiré de quelques slides et informations en provenance de github, sur le fait d'avoir un outil qui permet d'installer, automagiquement, tout ce qu'il faut sur un ordi vierge afin de pouvoir développer au plus vite sans perdre de temps (en gros).
 
-Evidemment, il semble que github regarde mon blog ou mon compte github. Et il semble que je l'ai ait pris de court puisqu'en réponse à mon projet, ils viennent de publier [boxen][]. Il est absolument impossible que cela ne soit qu'une coincidence !
+Evidemment, il semble que github regarde mon blog ou mon compte github. Et il semble que je les ai pris de court puisqu'en réponse à mon projet, ils viennent de publier [boxen][]. Il est absolument impossible que cela ne soit qu'une coincidence !
 
 [Boxen][boxen] est justement la version _open source_ de **The Setup**. Il s'agit d'un ensemble d'outils, d'un framework, autour de puppet pour grandement simplifier le _bootstraping_ d'un mac.
 
