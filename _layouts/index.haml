@@ -13,17 +13,30 @@
         %ul.post-list
           - if @scope.limit > 0
             - posts = @contents.list_lasts(@scope.limit)
-            - posts.each do |post|
+            - post = posts.first
+            %li.icon-comments-alt
+              %span.date
+                = posts.first.date.strftime "%F"
+              = ":"
+              %a{:href => link_to(post.url)}
+                = post.title
+              %blockquote
+                - if post.description?
+                  = post.description
+                - else
+                  = post.excerpt false, 100, " <a href='#{link_to(post.url)}'>Lire la suite…</a>"
+            %li
+              Précédents articles (
+              %a{:href => link_to("archives")}
+                voir tous
+              )
+            - posts[1..@scope.limit].each do |post|
               %li.icon-comments-alt
                 %span.date
                   = post.date.strftime "%F"
                 = ":"
                 %a{:href => link_to(post.url)}
                   = post.title
-                - if post.description?
-                  %blockquote= post.description
-                - else
-                  %blockquote= post.excerpt(true)
           - else
             - posts = @contents.list_by_date
             - posts.keys.sort.reverse.each do |year|
