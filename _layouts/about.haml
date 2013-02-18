@@ -12,9 +12,6 @@ layout: master
 
     %nav
       %ul
-        %li
-          %a.icon-book.big{:href => "cv_Yves_Brissaud.pdf"}
-            Curriculum Vitae (pdf)
         - if @contents.account? "twitter"
           %li
             %a.icon-twitter-sign.color.big{:href => "#{@contents.account "twitter"}"}

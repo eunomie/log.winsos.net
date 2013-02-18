@@ -8,8 +8,6 @@ twitter: _crev_
 
 # À propos
 
-Vous êtes sur le troisième opus de mes billets en ligne. Les deux précédents sont disponibles [ici](http://www.winsos.net/~yves), à partir de septembre 2005.
+Développeur, père, motard, amateur de cuisine, vous trouverez ici et de manière inégale principalement mes réflexions sur le [développement](/tags/dev.html), ma [veille](/tags/veille.html), mon [générateur de blog statique](/tags/web_log_today.html) ou [d'autres choses](/archives.html) qui me passent par la tête.
 
-Vous y trouverez de tout, de rien, du blabla. La publication est inégale et finalement c'est pas plus mal.
-
-Et de mon côté, je bosse dans le oueb pour le moment, plutôt spécialisé javascript (j'en fais professionnellement depuis 2005) même si j'aime pouvoir toucher à pas mal de choses.
+Les opus précédents (septembre 2005 à janvier 2013) se trouvent [ici](http://www.winsos.net/~yves).
