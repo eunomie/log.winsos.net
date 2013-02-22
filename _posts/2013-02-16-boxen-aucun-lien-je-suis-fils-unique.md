@@ -3,7 +3,7 @@ layout: post
 tags: [mac, dev, ruby, github]
 title: Boxen, aucun lien je suis fils unique
 author: Yves
-email: yves.brissaud@gmail.com
+email: yves@brissaud.name
 twitter: _crev_
 published: true
 image: 2013/02/16/boxen.png
