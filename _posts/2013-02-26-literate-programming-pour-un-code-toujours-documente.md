@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [dev, coffeescript]
-title: Literate programming : pour un code toujours documenté ?
+title: Literate programming, pour un code toujours documenté ?
 author: Yves
 email: yves@brissaud.name
 twitter: _crev_
