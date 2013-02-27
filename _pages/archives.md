@@ -1,8 +1,5 @@
 ---
 layout: index
 limit: -1
+title: Archives
 ---
-
-# CrEv's log
-
-Voici l'intégralité des articles publiés :

@@ -4,7 +4,9 @@ layout: master
 
 %article
   %header
-    %h1= @scope.title
+    %h1
+      %a{:href => link_to(@scope.url)}
+        = spanify @scope.title
 
     %h4
       Par

@@ -206,22 +206,7 @@ $green:   #859900
   @include solarized_main($rebase03,$rebase02,$rebase01,$rebase00,$rebase0,$rebase1,$rebase2,$rebase3)
   @include solarized_code($rebase03,$rebase02,$rebase01,$rebase00,$rebase0,$rebase1,$rebase2,$rebase3)
 
-  html.yellow, .yellow
-    @include accentize($yellow, $rebase0, $rebase02)
-  html.orange, .orange
-    @include accentize($orange, $rebase0, $rebase02)
-  html.red, .red
-    @include accentize($red, $rebase0, $rebase02)
-  html.magenta, .magenta
-    @include accentize($magenta, $rebase0, $rebase02)
-  html.violet, .violet
-    @include accentize($violet, $rebase0, $rebase02)
-  html.blue, .blue
-    @include accentize($blue, $rebase0, $rebase02)
-  html.cyan, .cyan
-    @include accentize($cyan, $rebase0, $rebase02)
-  html.green, .green
-    @include accentize($green, $rebase0, $rebase02)
+  @include accentize_with_second($blue, $rebase0, $rebase02, $green)
 
   body > header > nav, body > footer
     text-shadow: 2px 2px 3px #111111
@@ -274,8 +259,6 @@ $green:   #859900
         background: transparent !important
         color: $rebase3 !important
 
-
-
 @mixin accentize($accent, $color1, $color2)
   a, a:active, a:visited, code.url
     text-decoration: none
@@ -284,9 +267,94 @@ $green:   #859900
     &:not([class~="alone"]):hover
       background: $accent
       color: $color2
-  h1, h2, h3, h4, h5, h6
+  h1, h2, h3, h4, h5, h6,
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
     color: $accent
     font-weight: bold
+
+@mixin accentize_with_second($accent, $color1, $color2, $second)
+  a, a:active, a:visited, code.url
+    text-decoration: none
+    border-bottom: 1px solid $accent
+    color: $color1
+    &:not([class~="alone"]):hover
+      background: $accent
+      color: $color2
+  h1, h2, h3, h4, h5, h6,
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+    color: $accent
+    font-weight: bold
+  h1
+    span
+      &:nth-child(n)
+        color: adjust-hue($accent, -6)
+      &:nth-child(2n)
+        color: adjust-hue($accent, -4)
+      &:nth-child(3n)
+        color: adjust-hue($accent, -2)
+      &:nth-child(4n)
+        color: adjust-hue($accent, 0)
+      &:nth-child(2n + 1)
+        color: adjust-hue($accent, 2)
+      &:nth-child(3n + 1)
+        color: adjust-hue($accent, 4)
+      &:nth-child(4n + 1)
+        color: adjust-hue($accent, 6)
+    a
+      color: $accent
+      &:hover
+        background: $accent
+        span
+          &:nth-child(n)
+            color: lighten(adjust-hue($accent, -6), 40)
+          &:nth-child(2n)
+            color: lighten(adjust-hue($accent, -4), 40)
+          &:nth-child(3n)
+            color: lighten(adjust-hue($accent, -2), 40)
+          &:nth-child(4n)
+            color: lighten(adjust-hue($accent, 0), 40)
+          &:nth-child(2n + 1)
+            color: lighten(adjust-hue($accent, 2), 40)
+          &:nth-child(3n + 1)
+            color: lighten(adjust-hue($accent, 4), 40)
+          &:nth-child(4n + 1)
+            color: lighten(adjust-hue($accent, 6), 40)
+  .post-list h2
+    color: $second
+    span
+      &:nth-child(n)
+        color: adjust-hue($second, -12)
+      &:nth-child(2n)
+        color: adjust-hue($second, -8)
+      &:nth-child(3n)
+        color: adjust-hue($second, -4)
+      &:nth-child(4n)
+        color: adjust-hue($second, 0)
+      &:nth-child(2n + 1)
+        color: adjust-hue($second, 4)
+      &:nth-child(3n + 1)
+        color: adjust-hue($second, 8)
+      &:nth-child(4n + 1)
+        color: adjust-hue($second, 12)
+    a
+      border-bottom: 1px solid $second
+      &:hover
+        background: $second !important
+        span
+          &:nth-child(n)
+            color: lighten(adjust-hue($second, -12), 40)
+          &:nth-child(2n)
+            color: lighten(adjust-hue($second, -8), 40)
+          &:nth-child(3n)
+            color: lighten(adjust-hue($second, -4), 40)
+          &:nth-child(4n)
+            color: lighten(adjust-hue($second, 0), 40)
+          &:nth-child(2n + 1)
+            color: lighten(adjust-hue($second, 4), 40)
+          &:nth-child(3n + 1)
+            color: lighten(adjust-hue($second, 8), 40)
+          &:nth-child(4n + 1)
+            color: lighten(adjust-hue($second, 12), 40)
 
 /* light is default mode, so pair with general html definition */
 html, .light
@@ -314,6 +382,10 @@ blockquote
             border-left: 3px solid $red
             blockquote
               border-left: 3px solid $yellow
+.post-list.index
+  li
+    blockquote
+      border-left: 3px solid $yellow
 
 .big
   &.icon-twitter-sign:before,

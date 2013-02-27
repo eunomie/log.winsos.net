@@ -3,41 +3,45 @@
   %head
     = render :partial => "header"
 
-  %body(class="blue")
+  %body
     = render :partial => "body_header"
 
     %section.main
       %article
         = content
 
-        %ul.post-list
-          - if @scope.limit > 0
-            - posts = @contents.list_lasts(@scope.limit)
-            - post = posts.first
-            %li.icon-comments-alt
-              %span.date
-                = posts.first.date.strftime "%F"
-              = ":"
+        - if @scope.limit > 0
+          - posts = @contents.list_lasts(@scope.limit)
+          - post = posts.first
+          .phare
+            %h1.icon-comments-alt
               %a{:href => link_to(post.url)}
-                = post.title
-              %blockquote
-                - if post.description?
-                  = post.description
-                - else
-                  = post.excerpt false, 100, " <a href='#{link_to(post.url)}'>Lire la suite…</a>"
-            %li
-              Précédents articles (
-              %a{:href => link_to("archives")}
-                voir tous
-              )
+                = spanify post.title
+            %blockquote
+              - if post.image?
+                %img{:src => post.image}
+              - if post.description?
+                = post.description
+              - else
+                = post.excerpt false, 100, " <a href='#{link_to(post.url)}'>Lire la suite…</a>"
+          %ul.post-list.index
             - posts[1..@scope.limit].each do |post|
-              %li.icon-comments-alt
-                %span.date
-                  = post.date.strftime "%F"
-                = ":"
-                %a{:href => link_to(post.url)}
-                  = post.title
-          - else
+              %li
+                %h2.icon-comments-alt
+                  %a{:href => link_to(post.url)}
+                    = spanify post.title
+                %blockquote
+                  - if post.image?
+                    %img{:src => post.image}
+                  - if post.description?
+                    = post.description
+                  - else
+                    = post.excerpt true
+
+        - else
+          - if @scope.title?
+            %h1= spanify @scope.title
+          %ul.post-list
             - posts = @contents.list_by_date
             - posts.keys.sort.reverse.each do |year|
               - year_posts = posts[year]

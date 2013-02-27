@@ -33,6 +33,18 @@ ul.post-list, ul.post-list ul
   span.date
     display: inline-block
     min-width: 5em
+  blockquote
+    &:after
+      content: " "
+      display: block
+      width: 100%
+      clear: both
+    img
+      float: left
+      max-width: 150px
+      max-height: 150px
+      margin-right: 10px
+      margin-bottom: 10px
 .main
   padding: 0.5em
   article
@@ -58,6 +70,20 @@ ul.post-list, ul.post-list ul
 
   > footer
     text-align: right
+
+.phare
+  padding-left: 40px
+  margin-top: 20px
+  margin-bottom: 40px
+
+.post-list.index
+  li
+    width: 47%
+    display: inline-block
+    vertical-align: top
+    margin-bottom: 10px
+    &:nth-child(2n)
+      margin-left: 4%
 
 img.pola, article img
   background: #eeeeec
