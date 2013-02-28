@@ -54,17 +54,16 @@
             - posts.keys.sort.reverse.each do |year|
               - year_posts = posts[year]
               %li
-                %span.date= year
                 %ul
                   - year_posts.keys.sort.reverse.each do |month|
                     - month_posts = year_posts[month]
                     %li
-                      %span.date= month
+                      %h2.date= spanify(DateTime.new(year, month, 1).strftime("%B %Y"))
                       %ul
                         - month_posts.keys.sort.reverse.each do |day|
                           - day_posts = month_posts[day]
                           %li
-                            %span.date= day
+                            %span.date= DateTime.new(year, month, day).strftime "%F"
                             %ul
                               - day_posts.each do |post|
                                 %li.icon-comments-alt

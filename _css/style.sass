@@ -8,9 +8,9 @@ html
   background-size: cover
 
 body
-  max-width: 45em
+  max-width: 39em
   margin: 0 auto
-  padding: 0.5em
+  padding: 1.5em
 
   > header
     text-align: center
@@ -34,6 +34,7 @@ ul.post-list, ul.post-list ul
     display: inline-block
     min-width: 5em
   blockquote
+    -webkit-margin-end: 0
     &:after
       content: " "
       display: block
@@ -45,8 +46,12 @@ ul.post-list, ul.post-list ul
       max-height: 150px
       margin-right: 10px
       margin-bottom: 10px
+ul.post-list ul ul
+  margin-bottom: 1em
+  li
+    margin-bottom: 0.5em
 .main
-  padding: 0.5em
+  padding: 2em
   article
     margin-top: 2em
     margin-bottom: 1em
