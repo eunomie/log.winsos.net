@@ -75,6 +75,19 @@ ul.post-list, ul.post-list ul
   padding-left: 40px
   margin-top: 20px
   margin-bottom: 40px
+  ul.tags
+    list-style-type: none
+    &:after
+      content: " "
+      display: block
+      width: 100%
+      clear: both
+    li
+      display: inline-block
+  .next
+    display: inline-block
+.all_posts
+  text-align: right
 
 .post-list.index
   li

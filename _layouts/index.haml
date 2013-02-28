@@ -18,12 +18,17 @@
               %a{:href => link_to(post.url)}
                 = spanify post.title
             %blockquote
+              %ul.tags
+                - post.tags.each do |tag|
+                  %li
+                    %a.icon-tag{:href => link_to("tags/#{tag}")}
+                      = tag
               - if post.image?
                 %img{:src => post.image}
               - if post.description?
                 = post.description
               - else
-                = post.excerpt false, 100, " <a href='#{link_to(post.url)}'>Lire la suite…</a>"
+                = post.excerpt false, 100, " <a class='next' href='#{link_to(post.url)}'>[Lire la suite…]</a>"
           %ul.post-list.index
             - posts[1..@scope.limit].each do |post|
               %li
@@ -37,6 +42,9 @@
                     = post.description
                   - else
                     = post.excerpt true
+          %h2.all_posts.icon-calendar
+            %a{:href => link_to("archives")}
+              = spanify "Voir tous"
 
         - else
           - if @scope.title?

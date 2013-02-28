@@ -355,6 +355,42 @@ $green:   #859900
             color: lighten(adjust-hue($second, 8), 40)
           &:nth-child(4n + 1)
             color: lighten(adjust-hue($second, 12), 40)
+  .all_posts
+    color: $red
+    a
+      border-bottom: 1px solid $red
+      span
+        &:nth-child(n)
+          color: adjust-hue($red, -12)
+        &:nth-child(2n)
+          color: adjust-hue($red, -8)
+        &:nth-child(3n)
+          color: adjust-hue($red, -4)
+        &:nth-child(4n)
+          color: adjust-hue($red, 0)
+        &:nth-child(2n + 1)
+          color: adjust-hue($red, 4)
+        &:nth-child(3n + 1)
+          color: adjust-hue($red, 8)
+        &:nth-child(4n + 1)
+          color: adjust-hue($red, 12)
+      &:hover
+        background: $red !important
+        span
+          &:nth-child(n)
+            color: lighten(adjust-hue($red, -12), 40)
+          &:nth-child(2n)
+            color: lighten(adjust-hue($red, -8), 40)
+          &:nth-child(3n)
+            color: lighten(adjust-hue($red, -4), 40)
+          &:nth-child(4n)
+            color: lighten(adjust-hue($red, 0), 40)
+          &:nth-child(2n + 1)
+            color: lighten(adjust-hue($red, 4), 40)
+          &:nth-child(3n + 1)
+            color: lighten(adjust-hue($red, 8), 40)
+          &:nth-child(4n + 1)
+            color: lighten(adjust-hue($red, 12), 40)
 
 /* light is default mode, so pair with general html definition */
 html, .light
@@ -386,6 +422,9 @@ blockquote
   li
     blockquote
       border-left: 3px solid $yellow
+
+.phare .next
+  color: $blue
 
 .big
   &.icon-twitter-sign:before,
