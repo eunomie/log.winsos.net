@@ -25,21 +25,37 @@ Il s'en est suivi quelques années comme ça, quelques projets, et aussi l'arriv
 
 En 2005, je me suis retrouvé dans une situation assez étrange. J'étais dans une équipe qui codait directement sur le serveur. Oui oui, vous avez bien lu. J'ai bien essayé de les faire passer à [svn][], mais c'était mission impossible. J'en avais d'ailleurs fait un [journal linuxfr](https://linuxfr.org/users/crev/journaux/gestion-de-version-pour-applis-web).
 
-En 2006, j'arrive dans une équipe un peu différente. Pas question de coder sur les serveurs, on utilise [sourcesafe][]. Finalement je ne sais pas ce qui est le pire...
+En 2006, j'arrive dans une équipe un peu différente. Pas question de coder sur les serveurs, on utilise [sourcesafe][]. Finalement je ne sais pas ce qui est le pire… Heureusement il y avait quand même un peu de [svn][].
 
-* 2000 - 2001 : Découverte et utilisation de [cvs][] et sourceforge. Pourquoi ? Proximité avec certains développeurs mandrake. Compliqué. Pas d'utilisation personnelle
+S'ensuit une période plutôt [svn][] only. Mais avec vraiment l'utilisation des fonctionnalités, pas seulement je commit et basta. C'est à dire gestion de branches (que ce soit plutôt des _topic branches_ ou des branches de maintenance), fusion (_ha ha!_) ou _cherry-picking_. Et avec tout ça, c'est en partie moi qui m'occupait du serveur svn, donc aussi des sauvegardes, monté en version, toussa.
 
-> apparté :
-> à l'époque j'écrivais du code (assembleur) sur papier, déconnecté d'un ordinateur.
-> On réfléchissait à chaque ligne de code
+Période intéressante, jouer avec la fusion de branches dans svn est quelque chose de… particulier.
 
-* 2005 - 2006 : code directement sur serveurs. Puis sourcesafe. Puis svn
-* 2007 : utilisation de svn, de manière beaucoup plus avancée : branches, merge, cherry-picking, etc
-* 2009 : tests de git, mercurial, bazaar dans le but de migrer du svn
-* utilisation perso de git, git-svn
-* 2011 : migration vers mercurial
-* 2012 : git pro, github
-* 2013 : projet svn
+Au bout d'un moment par contre ça commence à suffir ! Vers 2009-2010 (approximatif) il est temps de se demander vers quoi migrer. On a de plus en plus de mal à gérer les branches et les conflits. Il m'arrive de ne plus utiliser de merge mais de tout faire par cherry-picking. C'est lourd, et il y en a marre. Surtout que d'autres systèmes, des [dcvs][] sont sortis et sont utilisables. C'est donc le moment d'étudier un peu les autres, aussi bien de manière unitaire que d'étudier la migration.
+
+Je fais donc pas mal de tests des trois qui se partagent la visibilité à cette époque :
+
+* [bazaar][bzr]
+* [Mercurial][hg]
+* [git][]
+
+Les trois ont des avantages, des inconvénients. La lenteur de [bzr][] est assez insupportable. [Mercurial][hg] est sympa mais son défaut est d'être parfois moins puissant que [git][]. [Git][git] est cool, mais le support windows laisse à désirer. Mais c'est le plus agréable.
+
+Pendant le temps de réflexion, on se fait aider par `git-svn`. Faut bien ça pour arriver à le supporter…
+
+Finalement, on prend du [hg][] à cause de windows et d'une courbe d'apprentissage un poil moins complexe que [git][]. C'est pour moi un faux argument car n'est qu'une vision à très court terme mais [hg][] n'étant simplement pas mauvais ça passe bien.
+
+Ha le plaisir de bosser déconnecter, de faire ses commits en locaux, de fusionner sans problème ! Franchement, à ce moment là on se dit :
+
+> Plus jamais un gestionnaire de version classique (centralisé) sans commits locaux !
+
+Evidemment j'utilise [git][] de mon côté, essentiellement pour du perso.
+
+2012 - 2013 arrive, et mes professionnellement je passe sous [git][] (et même sous [github](https://github.com)). J'aime bien [hg][] mais là c'est juste encore un cran au dessus.
+
+D'ailleurs j'ai déjà écris à propos de [ma configuration git][confgit].
+
+Et pour finir, 2013, je tombe sur un projet avec [svn][]. `o_O'`
 
 ## svn fait le job
 
@@ -57,5 +73,8 @@ Nettoyage des branches
 [git]: http://git-scm.com
 [cvs]: http://fr.wikipedia.org/wiki/Concurrent_versions_system
 [hg]: http://mercurial.selenic.com/
+[bzr]: http://bazaar.canonical.com/
 [dcvs]: http://en.wikipedia.org/wiki/Distributed_Concurrent_Versions_System
 [sourcesafe]: http://fr.wikipedia.org/wiki/Microsoft_Visual_SourceSafe
+[confgit]: http://log.winsos.net/2013/02/06/ma-configuration-git.html
+
