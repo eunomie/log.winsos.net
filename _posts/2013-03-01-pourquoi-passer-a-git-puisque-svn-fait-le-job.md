@@ -59,6 +59,21 @@ Et pour finir, 2013, je tombe sur un projet avec [svn][]. `o_O'`
 
 ## svn fait le job
 
+Sur le coup, ma réaction fut plutôt de la surprise. [svn][]. En 2013. Sérieusement.
+
+Heu…
+
+Allez, laissons le bénéfice du doute.
+
+> - Pourquoi vous avez du svn ? Vous ne voulez pas passer à autre chose ?
+> - Svn il fait le job.
+
+Oula non ! [svn][] il fait juste pas le job. Ou alors je ne sais pas de quel job on parle.
+
+Souvent on va vous dire que les [dcvs][] c'est génial car décentralisé, car ça permet de commiter dans le métro (supaïr utile lorsqu'on parle de boulot), depuis plusieurs postes.
+
+Oui, c'est vrai. Mais oui, on s'en fout un peu lorsqu'on parle boulot. 
+
 En fait non.
 Favorise les choses non commités.
 Favorise les master commits
