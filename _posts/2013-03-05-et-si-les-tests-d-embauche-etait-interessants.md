@@ -40,5 +40,9 @@ Le test a donc pour but de mettre en évidence l'adéquation — ou non — de c
 
 ### Objectifs côté candidat
 
+En général, lorsqu'on parle de test d'embauche, on ne parle pas d'intérêt côté candidat. Ces tests sont vus comme un examen. Mais ce serait réellement une erreur de se limiter à cet aspet.
+
+Si le candidat doit prouver à l'employeur qu'il convient pour le poste, le test peut aussi servir au candidat pour avoir une bien meilleur idée des manières de travailler, des interactions entre les gens, entre les services, entre les technologies, les outils, etc.
+
 Juste un post sur tests d'embauche "idéal"
 Vrai test, vrai dev, grande liberté, mise en prod
