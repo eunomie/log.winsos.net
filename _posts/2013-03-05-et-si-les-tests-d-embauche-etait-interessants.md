@@ -36,7 +36,7 @@ L'embauche (et le travail plus généralement) c'est du donnant-donnant. Pas que
 
 Les objectifs de l'employeur sont en général assez simple. Il a un problème et souhaite le régler. Pour cela il a besoin d'une personne ayant un certain nombre de connaissances, de compétences, avec qui il pourra s'entendre, qui s'intègrera dans l'entreprise, la culture, etc.
 
-Le test a donc pour but de mettre en évidence l'adéquation — ou non — de ces points.
+Le test a donc pour but de mettre en évidence l'adéquation — ou non — de ces points. Je ne détaille volontairement pas une liste précise, cela peut dépendre de ce que vous recherchez, et l'exemple sera pour le coup plus parlant.
 
 ### Objectifs côté candidat
 
