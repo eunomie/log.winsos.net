@@ -24,9 +24,19 @@ J'ai donc passé ce test, je pense assez bien puisque j'ai été embauché derri
 
 Je pense que ce test, à l'époque, m'avait permi de le montrer que j'avais les connaissances requises (ayant répondu à l'énnoncé) mais aussi une certaine ouverture d'esprit, une culture générale. En effet, alors que beaucoup de développeurs auraient lu le fichier XML lettre à lettre, probablement dans une machine a état somme toute plutôt classique, j'ai répondu au sujet avec une toute autre approche. J'ai _simplement_ lu le fichier en utilisant des expressions régulières. Celles-ci me permettaient d'accèder très rapidement et de manière plutôt haut niveau aux attributs, balises. Et l'intégrité était aussi plus simple à valider.
 
+Bon, je ne vais pas m'étendre beaucoup plus sur le passé, mais c'était juste pour montrer ce qui me semblait être un test pas trop mal.
+
 ## Objectifs
 
-La première chose c'est
+La première chose à faire, à mon avis, est de déterminer clairement les objectifs du test. Ce qu'on veut en retirer côté employeur, mais aussi ce qu'on souhaite apporter au candidat.
+
+L'embauche (et le travail plus généralement) c'est du donnant-donnant. Pas question qu'un test soit différent. Vous voulez que le candidat vienne chez vous et non chez la concurrence ? Donnez-lui des raisons de le faire.
+
+### Objectifs côté employeur
+
+
+
+### Objectifs côté candidat
 
 Juste un post sur tests d'embauche "idéal"
 Vrai test, vrai dev, grande liberté, mise en prod
