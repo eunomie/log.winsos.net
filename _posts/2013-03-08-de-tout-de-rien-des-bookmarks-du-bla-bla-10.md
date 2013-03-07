@@ -22,7 +22,25 @@ Si vous êtes intéressés par le développement iOS et/ou ruby, vous connaissez
 
 Mattt a été invité par l'antenne lyonnaise des [CocoaHeads][] pour parler de **Ruby + iOS**. Vous pouvez trouver plus d'informations [ici][infomattt] sachant que la soirée, qui se déroulera le 3 avril, est sur inscription (mais gratuite évidemment).
 
+La version 1.5.0 de [CoffeeScript][coffee] est sortie récemment. La grande nouveauté est la sortie du [literate CoffeeScript][literatecoffee]. Vous pouvez retrouver quelques infos sur l'article que j'ai écris récemment : _[« Literate programming, pour un code toujours documenté ? »][litarticle]_ (qui comporte aussi quelques infos et présentations sur le literate programming).
+
+Par contre, je ne vous conseil absolument pas cette version, elle pose un certain nombre de problèmes, entre autre liés aux parenthèses et accollades implicites. Vous pouvez voir un exemple de problème sur [ce bug sur le teabook open reader][bugteabook]. Heureusement, une version 1.6.1 (dont voici le [changelog][coffeechangelog]) est sortie est corrige ce problème. Elle inclus aussi, et ça c'est une très très bonne nouvelle, le support des _[Source Maps][coffeesrc]_. Les source maps permettent au debugger javascript de faire le lien avec la source coffeescript et affichent donc le code coffeescript originel en lieu et place du javascript généré. Un grand pas en avant je trouve.
+
+Twitter continue d'ouvrir un certain nombre de code. Cette fois ci (enfin c'était il y a un petit moment déjà) il s'agit de [flight][], (encore) un framework javascript. Il est très orienté évênementiel mais pour tout dire je ne l'ai pas testé. En fait je ne sais pas vraiment en quoi il serait plus intéressant qu'un autre, si quelqu'un a testé je suis preneur d'informations.
+
+On continue dans les libs d'interface avec [Topcoat][topcoat] d'Adobe. Il s'agit pour le coup uniquement de style (css) et c'est plutôt sympa, même si c'est surtout un de plus ;)
+
+A noter que les Google API sont désormais [officiellement supportées  sous node.js][googlenode].
+
+Si vous développez sous android, vous serez probablement intéressés par [Action Bar Scherlock][sherlock]. Il s'agit d'une lib au dessus des barres d'action d'android, permettant de les gérer plus facilement quelque soit le matériel de destination (tablette ou smartphone).
+
+jQuery est sorti en version [2 beta 2][jquery2]. Pour ma part je ne suis en général pas trop le développement de jQuery (c'est loin d'être la lib javascript que je préfère). Par contre, ce fut pour moi l'occasion de voir que la version 2 ne supportera plus les version 6, 7 et 8 d'Internet Explorer ! Ça c'est une vrai bonne nouvelle ! Par contre, la crainte que j'ai c'est que cela freine et morcelle encore plus le paysage javascript (avec les deux versions utilisées). Mais il serait temps que les IE < 9 disparaissent enfin (et quand j'entends certaines entreprises migrer sous IE7 et vista, comment dire…)
+
 ### Graphisme, design & co
+
+On sort un peu (mais pas trop, ne vous inquiètez pas) du développement pour passer du côté de la typographie. Tout d'abord avec l'excellent [Typelate][typeplate]. Il s'agit d'un framework css (disponible en sass, stylus, less ou css) s'occupant uniquement du rendu des textes. Et franchement c'est bien fait. Je pense d'ailleurs que je l'incluerai désormais dans mes développements. La typographie est loin d'être quelque chose d'anodin, souvent négligé (même si c'est un peu moins vrai ces derniers temps) et pourtant revêt d'une importance capitale étant donné que la majorité du contenu sur internet reste le texte.
+
+Et pour continuer dans la typo, une question : vous n'en avez pas marre du _lorem ipsum_ ? Si oui, vous apprécierez probablement [Blokk][blokk]. Il s'agit d'une police de caractère spécialement étudiée pour vos wireframes et mockups, surtout si vous ne comprenez pas le latin. Allez voir le site pour un aperçu, moi j'aime bien !
 
 ### Misc
 
@@ -48,7 +66,46 @@ Dans le genre totalement inutile dont absolument indispensable, je vous présent
 * Venue de Matt à Lyon : http://cocoaheads.fr/2013/02/lyon-evenement-special-le-3-avril-avec-mattt-thompson/
 [infomattt]: http://cocoaheads.fr/2013/02/lyon-evenement-special-le-3-avril-avec-mattt-thompson/
 
+* CoffeeScript: http://coffeescript.org
+[coffee]: http://coffeescript.org
+
+* Changelog CoffeeScript : http://coffeescript.org/#changelog
+[coffeechangelog]: http://coffeescript.org/#changelog
+
+* Literate CoffeeScript: http://coffeescript.org/#literate
+[literatecoffee]: http://coffeescript.org/#literate
+
+* Literate programming, pour un code toujours documenté ? : http://log.winsos.net/2013/02/26/literate-programming-pour-un-code-toujours-documente.html
+[litarticle]: http://log.winsos.net/2013/02/26/literate-programming-pour-un-code-toujours-documente.html
+
+* Bug CoffeeScript dans Teabook Open Reader: https://github.com/TEA-ebook/teabook-open-reader/pull/30
+[bugteabook]: https://github.com/TEA-ebook/teabook-open-reader/pull/30
+
+* Source Maps CoffeeScript: http://coffeescript.org/#source-maps
+[coffeesrc]: http://coffeescript.org/#source-maps
+
+* Twitter flight: http://twitter.github.com/flight/
+[flight]: http://twitter.github.com/flight/
+
+* Adobe Topcoad: http://topcoat.io/
+[topcoat]: http://topcoat.io/
+
+* Google API pour nodejs: https://github.com/google/google-api-nodejs-client
+[googlenode]: https://github.com/google/google-api-nodejs-client
+
+* Action Bar Scherlock: http://actionbarsherlock.com/
+[sherlock]: http://actionbarsherlock.com/
+
+* jQuery 2 beta 2: http://blog.jquery.com/2013/03/01/jquery-2-0-beta-2-released/
+[jquery2]: http://blog.jquery.com/2013/03/01/jquery-2-0-beta-2-released/
+
 ### Graphisme, design & co
+
+* Typeplate: http://typeplate.com/
+[typeplate]: http://typeplate.com/
+
+* Blokk: http://www.blokkfont.com/
+[blokk]: http://www.blokkfont.com/
 
 ### Misc
 
@@ -57,23 +114,7 @@ Dans le genre totalement inutile dont absolument indispensable, je vous présent
 
 
 
-
 [last]: http://log.winsos.net/2012/11/23/de-tout-de-rien-des-bookmarks-du-bla-bla-47.html "De tout, de rien, des bookmarks, du bla bla #47"
 [wlt]: http://log.winsos.net/2013/01/30/web-log-today-est-juillet.html "Web Log Today"
 
-
-
---------
-
-_Notes de rédaction_
-
-* flight
-* framework adobe http://topcoat.io/
-* typo http://typeplate.com/
-* Blokk font
-    * Blokk is a font for quick mock-ups and wireframing for clients who do not understand latin
-    * http://www.blokkfont.com/
-* Google Api pour node js https://github.com/google/google-api-nodejs-client
-* ActionBarScherlock http://actionbarsherlock.com/
-* jquery2 -> pas de IE 6, 7, 8
 
