@@ -8,7 +8,7 @@ twitter: _crev_
 published: false
 ---
 
-Le [dernier numéro][last] date maintenant d'il y a un bon moment (l'an dernier). Pas mal de choses se sont passées qui m'ont beaucoup ralenti. Entre autre, j'ai passé pas mal de temps sur mon moteur de blog static [wlt][]. Mais j'ai aussi changé d'emploi. Tout ça fait que j'ai pas raconté grand chose côté veille.
+Le [dernier numéro][last] date maintenant d'il y a un bon moment (l'an dernier). Pas mal de choses se sont passées qui m'ont beaucoup ralenti. Entre autre, j'ai passé pas mal de temps sur mon moteur de blog statique [wlt][]. Mais j'ai aussi changé d'emploi. Tout ça fait que j'ai pas raconté grand chose côté veille.
 
 Je ne vais pas rattraper ce qu'il s'est passé, ce serait trop complexe et surtout inutile car vous avez du avoir ces informations par ailleurs. Mais voici tout de même quelques petites news, en espérant que j'arrive à reprendre le rythme :)
 
@@ -24,9 +24,9 @@ Mattt a été invité par l'antenne lyonnaise des [CocoaHeads][] pour parler de 
 
 La version 1.5.0 de [CoffeeScript][coffee] est sortie récemment. La grande nouveauté est la sortie du [literate CoffeeScript][literatecoffee]. Vous pouvez retrouver quelques infos sur l'article que j'ai écris récemment : _[« Literate programming, pour un code toujours documenté ? »][litarticle]_ (qui comporte aussi quelques infos et présentations sur le literate programming).
 
-Par contre, je ne vous conseil absolument pas cette version, elle pose un certain nombre de problèmes, entre autre liés aux parenthèses et accollades implicites. Vous pouvez voir un exemple de problème sur [ce bug sur le teabook open reader][bugteabook]. Heureusement, une version 1.6.1 (dont voici le [changelog][coffeechangelog]) est sortie est corrige ce problème. Elle inclus aussi, et ça c'est une très très bonne nouvelle, le support des _[Source Maps][coffeesrc]_. Les source maps permettent au debugger javascript de faire le lien avec la source coffeescript et affichent donc le code coffeescript originel en lieu et place du javascript généré. Un grand pas en avant je trouve.
+Par contre, je ne vous conseil absolument pas cette version, elle pose un certain nombre de problèmes, entre autre liés aux parenthèses et accolades implicites. Vous pouvez voir un exemple de problème sur [ce bug sur le teabook open reader][bugteabook]. Heureusement, une version 1.6.1 (dont voici le [changelog][coffeechangelog]) est sortie est corrige ce problème. Elle inclus aussi, et ça c'est une très très bonne nouvelle, le support des _[Source Maps][coffeesrc]_. Les source maps permettent au debugger javascript de faire le lien avec la source coffeescript et affichent donc le code coffeescript originel en lieu et place du javascript généré. Un grand pas en avant je trouve.
 
-Twitter continue d'ouvrir un certain nombre de code. Cette fois ci (enfin c'était il y a un petit moment déjà) il s'agit de [flight][], (encore) un framework javascript. Il est très orienté évênementiel mais pour tout dire je ne l'ai pas testé. En fait je ne sais pas vraiment en quoi il serait plus intéressant qu'un autre, si quelqu'un a testé je suis preneur d'informations.
+Twitter continue d'ouvrir un certain nombre de code. Cette fois ci (enfin c'était il y a un petit moment déjà) il s'agit de [flight][], (encore) un framework javascript. Il est orienté événementiel mais pour tout dire je ne l'ai pas testé. En fait je ne sais pas vraiment en quoi il serait plus intéressant qu'un autre, si quelqu'un a testé je suis preneur d'informations.
 
 On continue dans les libs d'interface avec [Topcoat][topcoat] d'Adobe. Il s'agit pour le coup uniquement de style (css) et c'est plutôt sympa, même si c'est surtout un de plus ;)
 
@@ -38,13 +38,13 @@ jQuery est sorti en version [2 beta 2][jquery2]. Pour ma part je ne suis en gén
 
 ### Graphisme, design & co
 
-On sort un peu (mais pas trop, ne vous inquiètez pas) du développement pour passer du côté de la typographie. Tout d'abord avec l'excellent [Typelate][typeplate]. Il s'agit d'un framework css (disponible en sass, stylus, less ou css) s'occupant uniquement du rendu des textes. Et franchement c'est bien fait. Je pense d'ailleurs que je l'incluerai désormais dans mes développements. La typographie est loin d'être quelque chose d'anodin, souvent négligé (même si c'est un peu moins vrai ces derniers temps) et pourtant revêt d'une importance capitale étant donné que la majorité du contenu sur internet reste le texte.
+On sort un peu (mais pas trop, ne vous inquiétez pas) du développement pour passer du côté de la typographie. Tout d'abord avec l'excellent [Typelate][typeplate]. Il s'agit d'un framework css (disponible en sass, stylus, less ou css) s'occupant uniquement du rendu des textes. Et franchement c'est bien fait. Je pense d'ailleurs que je l'inclurai désormais dans mes développements. La typographie est loin d'être quelque chose d'anodin, souvent négligé (même si c'est un peu moins vrai ces derniers temps) et pourtant revêt d'une importance capitale étant donné que la majorité du contenu sur internet reste le texte.
 
 Et pour continuer dans la typo, une question : vous n'en avez pas marre du _lorem ipsum_ ? Si oui, vous apprécierez probablement [Blokk][blokk]. Il s'agit d'une police de caractère spécialement étudiée pour vos wireframes et mockups, surtout si vous ne comprenez pas le latin. Allez voir le site pour un aperçu, moi j'aime bien !
 
 ### Misc
 
-Dans le genre totalement inutile dont absolument indispensable, je vous présente [coffitivity][]. Ça ne fait rien d'autre que… jouer du bruit comme si vous êtiez au café ! Personnellement je n'arrive pas à me concentrer dans le silence. C'est juste horrible. Résultat le passe la majeur partie de mon temps avec de la musique dans les oreilles. Là par exemple, je bosse dans une boite silencieuse. J'avais jamais vu ça, je suis dans un grand open space et… rien. Pas de bruit. Finalement avec [coffitivity][] et ma musique, ça ressemble enfin à une atomsphère pour bien bosser !
+Dans le genre totalement inutile dont absolument indispensable, je vous présente [coffitivity][]. Ça ne fait rien d'autre que… jouer du bruit comme si vous êtiez au café ! Personnellement je n'arrive pas à me concentrer dans le silence. C'est juste horrible. Résultat le passe la majeur partie de mon temps avec de la musique dans les oreilles. Là par exemple, je bosse dans une boite silencieuse. J'avais jamais vu ça, je suis dans un grand open space et… rien. Pas de bruit. Finalement avec [coffitivity][] et ma musique, ça ressemble enfin à une atmosphère pour bien bosser !
 
 
 ## Liste des liens présentés
