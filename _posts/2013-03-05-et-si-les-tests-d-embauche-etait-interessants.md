@@ -53,7 +53,7 @@ L'énnoncé du test pourraît être de la sorte :
 > Le choix de la fonctionnalité est à votre entière discretion. Il peut s'agir d'une fonctionnalité manquante, d'une amélioration ergonomique, d'un easter egg, de quelque chose de tellement inutile que ça en devient indispensable. La seule contrainte à ce niveau est que ce soit positif pour le logiciel / produit / site / ... et donc évidemment non préjudiciable.
 > Une fois la fonctionnalité réalisée et revue (oui, il y aura revue de la fonctionnalité, du code, du style, etc) vous mettrez cette fonctionnalité en production, ajout à la branche principale de développement et déploiement de la nouvelle version.
 > Vous réaliserez ceci sous couvert d'un contrat que nous passerons pour la journée, et vous serez naturellement payé pour cette action.
-> Durant toute cette journée, vous pourrez évidemment nous/me soliciter quelqu'un soit la raison. Vous ne connaissez pas le framework utilisé ? Pas de problème, je vous l'explique. Vous voulez avoir un avis sur un design ? On en discute. L'objectif est que vous soyez dans des conditions les plus proches de votre futur emploi.
+> Durant toute cette journée, vous pourrez évidemment nous soliciter quelqu'un soit la raison. Vous ne connaissez pas le framework utilisé ? Pas de problème, nous vous expliquons ce qu'il vous manque. Vous voulez avoir un avis sur un design ? On en discute. L'objectif est que vous soyez dans des conditions les plus proches de votre futur emploi.
 >
 > Petit point technique. Indiquez l'environnement souhaité par avance, nous nous efforcerons de le préparer (mac, linux, windows, IDE, éditeur, etc).
 
