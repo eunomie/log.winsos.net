@@ -8,11 +8,13 @@ twitter: _crev_
 published: false
 ---
 
-Le [dernier numéro][last] date maintenant d'il y a un bon moment (l'an dernier). Pas mal de choses se sont passées qui m'ont beaucoup ralenti. Entre autre, j'ai passé pas mal de temps sur mon moteur de blog statique [wlt][]. Mais j'ai aussi changé d'emploi. Tout ça fait que j'ai pas raconté grand chose côté veille.
+Le [dernier numéro][last] date maintenant d'il y a un bon moment (l'an dernier). Pas mal de choses se sont passées qui m'ont beaucoup ralenti. Entre autre, [mon moteur de blog statique Web Log Today][wlt] a occupé pas mal de mon temps. Mais j'ai aussi changé d'emploi. Tout ça fait que j'ai pas raconté grand chose côté veille.
 
-Je ne vais pas rattraper ce qu'il s'est passé, ce serait trop complexe et surtout inutile car vous avez du avoir ces informations par ailleurs. Mais voici tout de même quelques petites news, en espérant que j'arrive à reprendre le rythme :)
+Je ne vais pas rattraper ce qui est arrivé durant ce temps, ce serait trop complexe et surtout inutile car vous avez du avoir ces informations par ailleurs. Mais voici tout de même quelques petites news, en espérant que j'arrive à reprendre le rythme :)
 
 Comme toujours, les plus pressés trouveront à la fin de l'article la liste brute des liens présentés.
+
+Bonne lecture !
 
 ## Un peu de contenu
 
