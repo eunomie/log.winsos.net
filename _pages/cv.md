@@ -7,9 +7,72 @@ twitter: _crev_
 published: true
 ---
 
-_Note :_ Cette page est en cours d'amélioration.
-
 # Architecte applications web
+
+## Expériences professionnelles
+
+### Ingénieur développeur
+
+#### Février 2013
+
+_E-commerce_
+
+- Google maps API, jsp, jsf, prime faces, Java, Javascript, CSS
+
+
+### Ingénieur développeur — [TEA — The Ebook Alternative][tea]
+
+#### Septembre 2012 — Février 2013
+
+_Startup spécialisée dans la distribution de livres numériques et l’édition de solutions et de services ouverts dans le domaine de la lecture numérique._
+
+- Développement d'une [application de lecture de livre numériques en HTML5, Open Source][teabook] : Application web utilisant les dernières technologies HTML5 (mode offline par exemple) et CSS3, Coffeescript, [Monocle][monocle], Ruby, RoR, Sass
+
+- Développement de la plateforme de gestion, vente et lecture de livres numériques : php, HTML, CSS, Sass, MySQL
+
+
+### Ingénieur développeur Javascript / Java — [Business Geografic][bg]
+
+#### Octobre 2007 — Septembre 2012
+
+_Éditeur de logiciel spécialisé dans les solutions cartographiques, géomatiques._
+
+* Développeur principal et architecte du client cartographique « ajax » de la suite Aigle 4  entièrement en Javascript, [Yahoo! UI][yui], html, css
+* Architecte et développeur d’un « frontend » modulaire en environnement distribué.
+  * Serveur en Java, [Google Guice][guice], OSGi, Jetty, REST
+  * Client en Javascript, [Google Closure Tools][closure], html, css
+* Référent développement logiciel : organisation du développement, application et adaptation de scrum, planning, rôle de scrum master
+* Certifié « Arkoon Certified Security Administrator » et interventions au sein du DataCenter [SynAApS][synaaps]
+
+### Ingénieur développeur C++ / Web — Cydonia
+
+#### Mars — Septembre 2007
+
+_Startup spécialisées dans la 3D._
+
+* Architecte et développeur de plugin 3D pour navigateur ainsi que d’une implémentation basée sur Mozilla (npapi, npruntime, C++) sous linux et windows
+* Développeur de composants d’interface web (javascript, html, css, [Yahoo! UI][yui])
+* Développeur serveur (Ruby on Rails, Web Services, MySQL)
+
+### Ingénieur développeur .Net / C++ — [Micro Vidéo Soft][mvs]
+
+#### Décembre 2005 — Décembre 2006
+
+_Editeur de logiciel spécialisé dans les solutions de publication pour la presse, l'édition, les catalogues._
+
+* Migration d'applications MFC (C++) en application Web (.Net, C#) portant entre autre sur l'édition de documents en ligne
+* Développement d'applications Web riches, utilisation de technologies .Net, C#, Ajax
+* Développement, maintenance de plugin d'édition et de mise en page pour Adobe InDesign CS2 (C++, Adobe InDesign CS2 SDK)
+
+
+## Formation
+
+### [ESSTIN][esstin]
+
+#### 2000 - 2005
+
+Obtention du diplôme d' **Ingénieur généraliste** à l'École Supérieure des Sciences et Technologies de l'Ingénieur de Nancy, option **Ingénierie des Réseaux et Systèmes**.
+
 
 ## Compétences, connaissances
 
