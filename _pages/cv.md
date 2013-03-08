@@ -11,6 +11,15 @@ published: true
 
 ## Expériences professionnelles
 
+### Ingénieur développeur
+
+#### À partir de Février 2013
+
+_E-commerce_
+
+- Google maps API, jsp, jsf, prime faces, Java, Javascript, CSS
+
+
 ### Ingénieur développeur — [TEA — The Ebook Alternative][tea]
 
 #### Septembre 2012 — Février 2013
