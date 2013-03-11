@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [veille]
+tags: [veille, vim]
 title: Yoursachet configure ton vim
 author: Yves
 email: yves@brissaud.name
