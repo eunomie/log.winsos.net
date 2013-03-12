@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [dev, humeur, en]
+tags: [dev, humeur]
 title: Ne pas pousser en prod le vendredi. FAUX !
 author: Yves
 email: yves@brissaud.name
