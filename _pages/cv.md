@@ -13,7 +13,7 @@ published: true
 
 ### Ingénieur développeur
 
-#### Février 2013
+#### Février 2013 - présent
 
 _E-commerce_
 
