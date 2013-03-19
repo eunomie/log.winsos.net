@@ -6,7 +6,7 @@ author: Yves
 email: yves@brissaud.name
 twitter: _crev_
 image: 2013/03/19/sourcetree.png
-published: false
+published: true
 ---
 
 Some years ago, when I start working with [mercurial][hg], I looked at a nice GUI. Of course a GUI isn't necessary to use [hg][]. But I think this is a good thing, even if you know how to use [hg][] in `cli`.
