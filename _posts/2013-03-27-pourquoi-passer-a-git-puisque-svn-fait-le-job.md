@@ -5,7 +5,8 @@ title: Pourquoi passer à git puisque svn fait le job ? Petit retour sur la dern
 author: Yves
 email: yves@brissaud.name
 twitter: _crev_
-published: false
+published: true
+image: 2013/03/27/cvs.png
 ---
 
 Mon actualité récente fait que je me suis retrouvé face à un projet utilisant [subversion][svn] comme gestionnaire de sources. L'occasion de me poser quelques questions sur le sujet, entre autre _« Pourquoi passer à [git][] puisque [svn][] fait le job ? »_. Mais c'est aussi l'occasion de revenir sur un peu plus de 10 ans d'utilisation de gestionnaires de sources divers et variés.
@@ -89,7 +90,7 @@ D'ailleurs j'ai déjà écris à propos de [ma configuration git][confgit].
 
 Et pour finir, 2013, je tombe sur un projet avec [svn][]. `o_O'`
 
-## svn fait le job
+## Svn fait le job
 
 Sur le coup, ma réaction fut plutôt de la surprise. [svn][]. En 2013. Sérieusement.
 
@@ -112,7 +113,7 @@ Par contre, il y a des qualités réelles aux [dcvs][]. Les principales étant p
 * branches et tout ce qui va avec (fusion, rebase, etc)
 
 
-### commits locaux (et plus puissants)
+### Commits locaux (et plus puissants)
 
 Bon ça c'est assez simple, c'est surtout le fait qu'un commit ne va pas être envoyé au serveur immédiatement. Il va falloir le pousser. L'avantage (énorme) est qu'on va avoir un poil de temps de plus pour vérifier avant d'envoyer sur le serveur de source. Combien de commits genre _fix_, _oups_, _fichier oublié_, … sur un svn ?
 
@@ -120,14 +121,14 @@ En poussant un peu plus loin on peut même utiliser des systèmes de gestion de 
 
 Dans le genre de choses agréable, il est aussi possible de commiter partiellement. C'est à dire de choisir les modifications à ajouter au commit parmis l'ensemble des modifications. Sous [git][] c'est surtout la commande `git add -p`. Extrèmement pratique si vous avez travaillez sur plusieurs choses mais souhaitez séparer en plusieurs commits. Et il ne faut pas oublier que le coût d'un commit, local, est juste quasi nul, au contraire de [svn][] qui doit le pousser immédiatement sur le serveur. Il est donc tout à fait possible de réaliser _beaucoup_ de commits.
 
-### branches
+### Branches
 
 Oué alors là c'est juste la **principale** différence avec les systèmes comme [svn][]. Pour faire simple, les fusions de branches sous [dcvs][] _« ça juste marche »_ !
 
 La création de branches à un coût quasi nul. La fusion idem. Tout est fait pour fonctionner de cette manière. Ok il y a des différences entre les différents [dcvs][] mais au final c'est presque pareil. Mais surtout, dans tous les cas on peut brancher et fusioner. Chose un peu trop suicidaire avec [svn][] pour le tenir longtemps.
 
 
-### mais svn alors ?
+### Mais svn alors ?
 
 En fait svn favorise exactement l'inverse et un tas de mauvaises pratiques.
 
@@ -147,9 +148,9 @@ Au final, on a souvent un historique horrible, qui n'est d'ailleurs presque jama
 Et mine de rien ce qui est en jeux, c'est bien la maintenance du code. Un historique propre, où il est possible de retrouver, par exemple, comment on a corrigé un problème, comment on a cru corriger un problème, avec des branches permettant de gérer les versions, tout en voyant les liens entre elles, etc, c'est juste primordial pour pouvoir travailler proprement et efficacement.
 
 
-## Un dernier conseil ?
+## Un conseil pour terminer ?
 
-En fait je n'en ai qu'un, tout simplement :
+Facile, je n'en ai qu'un, tout simplement :
 
 > Utilisez un système de gestion de source correct, vous permettant de gérer des branches, des fusions, du travail local, etc. N'importe quel [dcvs][] peut convenir (même [bzr][]). Mais surtout, surtout, virez moi [svn][] ! Vos développeurs (et vos développements) ne s'en porteront que mieux !
 
