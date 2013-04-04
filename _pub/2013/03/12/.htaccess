@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://log.winsos.net/ [NC]
+RewriteRule .*\.(jpe?g|gif|bmp|png)$ http://log.winsos.net/2013/03/12/ne-pas-pousser-en-prod-le-vendredi-faux.html [L]
