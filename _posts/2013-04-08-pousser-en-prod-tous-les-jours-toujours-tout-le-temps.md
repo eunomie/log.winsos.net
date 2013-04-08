@@ -55,7 +55,7 @@ Mais c'est certain. Agire de la sorte demande de l'organisation. Demande de boss
 
 (et vous avez évidemment la même chose avec `local`, `preprod`, …)
 
-Ce genre de truc c'est juste parfait pour passer chaque amélioration / correction sans attendre. Ha oui, et pour ceux qui veulent passer une branche spécifique (ou un tag, ou autre) avec capistrano vous pouvez aussi le spécifier assez facilement comme indiqué sur le blog de Mickael [« Déployer une version spécifique via capistrano »][5].
+Ce genre de truc c'est juste parfait pour passer chaque amélioration / correction sans attendre. Ha oui, et pour ceux qui veulent passer une branche spécifique (ou un tag, ou autre) avec capistrano vous pouvez aussi le spécifier assez facilement comme indiqué sur le blog de Mikael [« Déployer une version spécifique via capistrano »][5].
 
 En fait on pourrait très bien faire un article expliquant tout ce qu'il faut faire (ou ne pas faire) pour ne pas être capable de pousser en production un vendredi. Ce serait assez marrant, un genre de _bad practices du déploiement logiciel_. Mais le point qui serait le plus important est bien celui dont il est question ici, pousser trop de choses, sans recul. Le secret d'un déploiement en continu est vraiment là.
 
