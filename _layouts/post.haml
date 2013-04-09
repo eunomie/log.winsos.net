@@ -8,7 +8,7 @@ layout: master
       %a{:href => link_to(@scope.url)}
         = spanify @scope.title
 
-    %h4
+    .postdetails
       Par
       = @scope.author
       - if @contents.account? "twitter"
