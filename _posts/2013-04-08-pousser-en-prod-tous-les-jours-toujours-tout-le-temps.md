@@ -17,8 +17,8 @@ D'ailleurs, puisque certains voulaient croire que personne ne faisait ça pour d
 
 Mais bon, faut croire que je vis dans un monde de bisounours. Pourtant, ici aussi (ici = dans la vraie vie, avec des vrais applications, avec des softs basés sur du code tiers, pire sur du code tiers de qualité douteuse) on peut déployer plusieurs fois par jour, quelque soit le jour.
 
-<blockquote class="twitter-tweet" data-conversation="none" lang="fr"><p>@<a href="https://twitter.com/_crev_">_crev_</a> là j'ai du déployer 10 fois depuis ce matin ! (maintenant que je peux sur tous les projets, je me fait plaisir :D)</p>&mdash; Anne-Sophie (@annso_) <a href="https://twitter.com/annso_/status/312218938673082370">14 mars 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none" lang="fr"><p>@<a href="https://twitter.com/_crev_">_crev_</a> là j'ai du déployer 10 fois depuis ce matin ! (maintenant que je peux sur tous les projets, je me fait plaisir :D)</p>&#8212; Anne-Sophie (@annso_) <a href="https://twitter.com/annso_/status/312218938673082370">14 mars 2013</a></blockquote>
+<script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Mais par contre, vous n'imaginez même pas à quel point la résponsable produit fut satisfaite une fois qu'on a pu déployer en continu. Le gain au niveau produit, utilisateur est réel (ce n'est pas juste une lubie de développeur).
 
