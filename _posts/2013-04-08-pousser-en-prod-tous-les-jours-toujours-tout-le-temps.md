@@ -36,7 +36,7 @@ En fait, la majorité des réactions _contre_ le déploiement en prod le vendred
 
 Le principal problème ici c'est surtout un manque de maitrise de _ce qui est_ déployé. Pourtant c'est une des conditions clés. Les déploiements doivent être les plus petits possibles. Tout le temps. On pourrait rapprocher ça de passer de svn, souvent des gros commits, mélanger un peu tout et n'importe quoi, à git (ou autre) avec de nombreux petits commits, avec peu d'incidence.
 
-Ben là c'est pareil. Si vosu cherchez à déployer une nouvelle fonctionnalité le vendredi, après 2 semaines de boulot, dans ce cas il est presque évident :
+Ben là c'est pareil. Si vous cherchez à déployer une nouvelle fonctionnalité le vendredi, après 2 semaines de boulot, dans ce cas il est presque évident :
 
 * que ça va merder
 * que Murphy va être de la partie
