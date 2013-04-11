@@ -17,7 +17,7 @@ published: true
 
 _E-commerce_
 
-- Google maps API, jsp, jsf, prime faces, Java, Javascript, CSS
+- Développement du site web de vente et des outils internes : Google maps API, jsp, jsf, prime faces, Java, Javascript, CSS
 
 
 ### Ingénieur développeur — [TEA — The Ebook Alternative][tea]
@@ -37,11 +37,11 @@ _Startup spécialisée dans la distribution de livres numériques et l’éditio
 
 _Éditeur de logiciel spécialisé dans les solutions cartographiques, géomatiques._
 
+* Référent développement logiciel : organisation du développement, application et adaptation de scrum, planning, rôle de scrum master
 * Développeur principal et architecte du client cartographique « ajax » de la suite Aigle 4  entièrement en Javascript, [Yahoo! UI][yui], html, css
 * Architecte et développeur d’un « frontend » modulaire en environnement distribué.
   * Serveur en Java, [Google Guice][guice], OSGi, Jetty, REST
   * Client en Javascript, [Google Closure Tools][closure], html, css
-* Référent développement logiciel : organisation du développement, application et adaptation de scrum, planning, rôle de scrum master
 * Certifié « Arkoon Certified Security Administrator » et interventions au sein du DataCenter [SynAApS][synaaps]
 
 ### Ingénieur développeur C++ / Web — Cydonia
