@@ -5,6 +5,7 @@ title: Ecrire une page web de nos jours, troisième partie
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
+nolinks: true
 ---
 
 Hey !

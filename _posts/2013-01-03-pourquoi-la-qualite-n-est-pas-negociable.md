@@ -5,6 +5,7 @@ title: Pourquoi la qualité n'est pas négociable
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
+nolinks: true
 ---
 
 Je voudrais vous faire part d'un point qui me trotte dans la tête en ce moment.

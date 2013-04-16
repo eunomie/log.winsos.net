@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 Il y a peu je suis allé déclarer la naissance de ma fille en la mairie de Rillieux-la-Pape. Rassurez-vous je compte vous parler d'autre chose `;)`

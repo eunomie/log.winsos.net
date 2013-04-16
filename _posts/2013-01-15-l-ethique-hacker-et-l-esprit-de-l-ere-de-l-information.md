@@ -7,6 +7,7 @@ email: yves.brissaud@gmail.com
 twitter: _crev_
 published: true
 image: ethique.gif
+nolinks: true
 ---
 
 Pour faire suite aux [quelques lectures intéressantes][lectures], voici juste quelques informations supplémentaires sur le livre _l'éthique hacker et l'esprit de l'ère de l'information_.

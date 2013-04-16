@@ -7,6 +7,7 @@ email: yves@brissaud.name
 twitter: _crev_
 published: true
 image: 2013/03/14/continuous.png
+nolinks: true
 ---
 
 Il faut croire que mon article sur [le déploiement en continu][dredi] vous a intéressé. Voici pour completer quelques liens vers des articles ou présentations sur le sujet. Attention, ce ne sont pas des liens qui vous dirons comment mettre en place du déploiement en continu, mais plus quelques informations, motivations sur le sujet.

@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 Aaron Schwartz, pourquoi les ingénieurs sont grincheux, petites lectures intéressantes du moment.

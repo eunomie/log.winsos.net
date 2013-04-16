@@ -7,6 +7,7 @@ email: yves@brissaud.name
 twitter: _crev_
 published: true
 image: 2013/03/27/cvs.png
+nolinks: true
 ---
 
 Mon actualité récente fait que je me suis retrouvé face à un projet utilisant [subversion][svn] comme gestionnaire de sources. L'occasion de me poser quelques questions sur le sujet, entre autre _« Pourquoi passer à [git][] puisque [svn][] fait le job ? »_. Mais c'est aussi l'occasion de revenir sur un peu plus de 10 ans d'utilisation de gestionnaires de sources divers et variés.

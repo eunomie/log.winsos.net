@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 image: 2013/02/07/og_logo.png
+nolinks: true
 ---
 
 Petite amélioration rapide de [Web Log Today][wlt].

@@ -6,6 +6,7 @@ author: Yves
 email: yves@brissaud.name
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 Le [dernier numéro][last] date maintenant d'il y a un bon moment (l'an dernier). Pas mal de choses se sont passées qui m'ont beaucoup ralenti. Entre autre, [mon moteur de blog statique Web Log Today][wlt] a occupé pas mal de mon temps. Mais j'ai aussi changé d'emploi. Tout ça fait que j'ai pas raconté grand chose côté veille.

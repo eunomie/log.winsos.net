@@ -7,6 +7,7 @@ email: yves@brissaud.name
 twitter: _crev_
 published: true
 image: 2013/04/08/continuous-delivery.png
+nolinks: true
 ---
 
 Il y a quelques temps j'ai écris un petit article à propos du fait de pousser du code en production tous les jours : [« Ne pas pousser en prod le vendredi. FAUX ! »][1]. Comme expliqué en introduction, cet article était en partie en réaction au fait de voir tout le monde s'extasier devant le fait de _ne pas_ pousser en production le vendredi.

@@ -5,6 +5,7 @@ title: Ecrire une page web de nos jours
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
+nolinks: true
 ---
 
 J'aurais aussi pu l'appeler _Le html c'est surfait !_

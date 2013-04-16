@@ -5,6 +5,7 @@ title: Ecrire une page web de nos jours, suite des aventures
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
+nolinks: true
 ---
 
 Il faut croire que l'[épisode précédent][1] vous a intéressé (mon petit doigt me dit qu'il est même passé sur un [incubateur d'excellence][3] aux dires des [mytiloïdes][4] qui s'y trouvent). Voici donc la suite tant attendue.

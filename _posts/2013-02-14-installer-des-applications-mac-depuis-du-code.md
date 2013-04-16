@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 Récemment j'ai revu une présentation très intéressante (ça fera l'objet d'un prochain billet) de [Zach Holman][holman] (Github) : _["Unsucking your teams development environment"][unsucking]_.

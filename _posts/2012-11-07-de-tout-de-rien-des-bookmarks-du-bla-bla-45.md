@@ -5,6 +5,7 @@ title: De tout, de rien, des bookmarks, du bla bla 45
 author: CrEv
 email: yves.brissaud@gmail.com
 twitter: _crev_
+nolinks: true
 ---
 
 _note: ce billet de veille a été rédigé et posté sur [linuxfr](http://linuxfr.org), il est visible [ici](http://linuxfr.org/news/de-tout-de-rien-des-bookmarks-du-bla-bla-45). Il est en outre sous licence [CC by-sa](http://creativecommons.org/licenses/by-sa/3.0/deed.fr)_

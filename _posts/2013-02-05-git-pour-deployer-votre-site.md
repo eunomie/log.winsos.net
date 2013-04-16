@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 [Git][git] est un outil merveilleux pour gérer vos projets. Non content de vous permettre de versionner correctement vos fichiers, c'est aussi un véritable outils de _devops_ qui vous permet de déployer votre site automagiquement.Petit tour dans le monde merveuilleux ~~du capitaine crochet~~ des hooks et des remotes.

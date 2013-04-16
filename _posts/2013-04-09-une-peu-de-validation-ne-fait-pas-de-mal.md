@@ -7,6 +7,7 @@ email: yves@brissaud.name
 twitter: _crev_
 published: true
 image: 2013/04/09/i-heart-validator.png
+nolinks: true
 ---
 
 Peut-être l'aviez-vous remarqué, mais mon dernier billet n'était malheureusement pas valide (ni le html ni le xml du flux atom). Fort heureusement un fidèle lecteur (salut frangin o/) me l'a fait remarquer. L'occasion de revenir sur deux-trois petites choses.

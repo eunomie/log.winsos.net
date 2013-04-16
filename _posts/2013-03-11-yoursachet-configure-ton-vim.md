@@ -8,6 +8,7 @@ twitter: _crev_
 published: true
 description: Petit présentation de yoursachet, outil web et graphique vous permettant de configurer facilement votre vim.
 image: 2013/03/11/sachet.png
+nolinks: true
 ---
 
 Chers amis, l'heure est grave ! Je vais vous parler aujourd'hui de… **vim**.

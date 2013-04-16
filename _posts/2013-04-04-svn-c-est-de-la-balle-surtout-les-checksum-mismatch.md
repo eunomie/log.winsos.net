@@ -7,6 +7,7 @@ email: yves@brissaud.name
 twitter: _crev_
 published: true
 image: 2013/04/04/svn.png
+nolinks: true
 ---
 
 Ce qui est bien avec SVN c'est qu'à force de l'utiliser on peut même trouver des points positifs.

@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 published: false
+nolinks: true
 ---
 
 Au moment où je débute ce billet, il y a un reportage sur la 2 intitulé _"La mise à mort du travail"_. Entre autre ce reportage parle de la mise en oeuvre de _[lean][]_ dans les entreprises. Ca tombe plutôt bien, ça fait un moment que je me pose des questions sur les méthodes de travail, l'agile, le lean, etc.

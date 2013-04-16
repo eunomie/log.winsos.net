@@ -5,6 +5,7 @@ title: Sleipnir proxy quick & dirty pour bien coder
 author: CrEv
 email: yves.brissaud@gmail.com
 twitter: _crev_
+nolinks: true
 ---
 
 Je partage avec vous un petit dév que j'ai fait [en go](http://golang.org/).

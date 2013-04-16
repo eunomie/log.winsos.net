@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 Ces derniers jours j'ai vu passé pas mal d'histoire de bon et mauvais code. Evidemment ça parle aussi de bon et mauvais développeurs mais pour le coup j'ai lu une citation qui m'a beaucoup intéressé :

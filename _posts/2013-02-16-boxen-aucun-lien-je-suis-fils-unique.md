@@ -7,6 +7,7 @@ email: yves@brissaud.name
 twitter: _crev_
 published: true
 image: 2013/02/16/boxen.png
+nolinks: true
 ---
 
 Il y a peu je vous parlais d'un petit projet, [asentaa][] - présenté [ici][post], dont le but est juste de faire un petit outil pour installer des programmes sur mac, depuis ruby. Entre autre chose, c'était inspiré de quelques slides et informations en provenance de github, sur le fait d'avoir un outil qui permet d'installer, automagiquement, tout ce qu'il faut sur un ordi vierge afin de pouvoir développer au plus vite sans perdre de temps (en gros).

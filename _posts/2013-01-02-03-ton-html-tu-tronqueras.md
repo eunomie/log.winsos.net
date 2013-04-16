@@ -5,6 +5,7 @@ title: Ton html tu tronqueras !
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
+nolinks: true
 ---
 
 Comme vous l'avez probablement remarqué, la _description_ associée à chaque billet à légèrement changée sur la page d'index. Précédemment il s'agissait d'un champ ajouté aux méta données de chaque post. C'est plutôt fiable, mais pas pratique du tout, oblige à saisir deux fois, etc.

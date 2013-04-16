@@ -6,6 +6,7 @@ author: Yves
 email: yves@brissaud.name
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 Très récemment est sortie une nouvelle version de [coffeescript][], la [1.5][]. Entre autres choses, cette version introduit le principe de _Literate CoffeeScript_. Il s'agit tout simplement de mixer dans un même fichier documentations — commentaires, même si c'est plus que ça en réalité — et code, comme on peut le voir dans le _[literate programming][]_.

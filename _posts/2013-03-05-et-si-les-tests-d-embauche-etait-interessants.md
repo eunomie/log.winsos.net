@@ -6,6 +6,7 @@ author: Yves
 email: yves@brissaud.name
 twitter: _crev_
 published: false
+nolinks: true
 ---
 
 Ces derniers temps j'ai changé plusieurs fois d'emploi. Ce sont des choses qui arrivent. Tout en conduisant, seul dans ma voiture ce week-end, je me suis mis à réfléchir à une question primordiale : _« Comment être certain que le job pour lequel on postule sera tel que l'on s'imagine ? »_ Et le pendant a vite fait surface : _« Comment être cerain que le candidat qui postule conviendra pour répondre à mon besoin ? »_ Ces deux questions m'ont menées sur le chemin des tests d'embauche. Mais finalement d'un test très éloigné de ceux dont j'ai déjà entendu parlé, ou même de ceux que j'ai déjà eu à passer. Voici donc une description de ce qui serait pour moi un test réellement intéressant, que ce soit aussi bien côté employeur que candidat (cette dualité est primordiale si on veut entrer dans une relation gagnant - gagnant).

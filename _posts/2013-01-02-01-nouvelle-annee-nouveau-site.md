@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 Et oui, ça y est, on y est ! La fin du monde est passée (ou pas). On débute une nouvelle année.

@@ -7,6 +7,7 @@ email: yves@brissaud.name
 twitter: _crev_
 published: true
 image: 2013/03/12/Ne-pas-pousser-en-prod-le-vendredi-small.png
+nolinks: true
 ---
 
 Ces derniers temps j'ai vu pas mal de références à une question souvent critique pour certains : « Est-ce qu'on met en prod aujourd'hui ? » (surtout lorsque aujourd'hui est vendredi).

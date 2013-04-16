@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 Ça y est, j'ai posé les sources de ce blog sur github. Vous pouvez donc voir les sources utilisées pour générer ce blog sur mon dépôt [log.winsos.net](https://github.com/CrEv/log.winsos.net).

@@ -6,6 +6,7 @@ author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
 published: true
+nolinks: true
 ---
 
 Il y a quelques jours, j'ai eu besoin de monter en version ma [mageia][]. Petit retour sur cette opération.
