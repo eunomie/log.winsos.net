@@ -9,6 +9,8 @@ published: true
 image: 2013/04/16/text-editor.png
 ---
 
+_Edit : correction de l'éditeur..._
+
 Comme toute personne normale, vous passez presque tout votre temps dans votre navigateur.
 
 Comment ?
@@ -41,8 +43,10 @@ Mais si on veut on peut aller un tout petit peu plus loin. C'est d'ailleurs avec
 Cette fois-ci, entrez :
 
 ```text
-data:text/html, <html><head><body><script src="http://goo.gl/kqA8j"><script>
+data:text/html, <html><head><body><script src="http://goo.gl/kqA8j"></script>
 ```
+
+_Note : suite à une remarque de [Pym](https://twitter.com/pym) j'ai corrigé l'éditeur. La balise `script` était mal fermée. Forcément ça fonctionne beaucoup mieux ainsi._
 
 Un tout petit peu plus complexe. Vous allez vous retrouver avec deux panneaux. Celui de gauche — fond blanc — est éditable. C'est votre zone de saisie. Celui de droite — fond gris clair — est un aperçu de ce que vous entrez.
 
