@@ -61,6 +61,28 @@ Donc **non**, on déploie **tous les jours**, et même **plusieurs** fois par jo
 
 Celui qui me colle un "Ne pas pousser en prod le vendredi" risque de s'en souvenir longtemps !
 
+---
+
+Je suis Nicolas Hoffmann, l'auteur de la page "Est-ce qu'on met en prod...".
+
+Merci pour l'article et l'explication, mais il y a un point qui a dû t'échapper :
+
+C'est **POUR RIRE**. 
+
+J'ignore pour les autres, mais perso, je suis au courant qu'on peut pousser des mises à jour en prod le vendredi, j'en fais constamment et ça se passe très bien, et même si c'est fait à la RACHE (méthode certifiée ISO-1664).
+
+Il y a un point important : ce n'est pas parce que techniquement on n'a pas de problème particulier à le faire qu'on apprécie d'avoir un coup de fil le Samedi ou le Dimanche pour avoir une rectification urgente demandée par le client : même pas forcément un bug, mais une mise à jour, genre parce qu'il a enfin vu que le contenu qu'on lui a montré 600 fois sur le serveur n'était pas le bon - parce qu'il n'avait pas fourni la dernière version par exemple, et que ça ne peut pas attendre, parce que le calendrier du club de pétanque de l'Amicale du Club de Bridge d'Auxon-Dessus devant être mis à jour avant la Kermesse.
+
+Donc, je le redis, back to basics : c'est **POUR RIRE** cette page.
+
+<img src="http://i.imgur.com/jMpt3.gif" alt="" />
+
+:)
+
+---
+
+
+
 [capistrano]: https://github.com/capistrano/capistrano
 [CasperJS]: http://casperjs.org/
 [Hubot]: http://hubot.github.com/
