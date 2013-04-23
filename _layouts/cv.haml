@@ -10,8 +10,15 @@
       %p
         Vous cherchez un
         %strong
-          talentueux développeur/architecte Web
-        , Javascript (7 ans d'expérience), Java, Ruby ? Ça tombe bien je suis ouvert à toute proposition intéressante !
+          talentueux architecte Web
+        avec une expérience significative en développement, notamment 7 ans d'expérience en Javascript.
+        Mais aussi avec des compétences de
+        %strong
+          chef de projet
+        et une expérience de
+        %strong>
+          Scrum Master
+        ? Ça tombe bien je suis ouvert à toute proposition intéressante !
 
 
     %section.main
@@ -21,20 +28,20 @@
 
         %footer
           %h2
-            Me contacter
+            N'hésitez plus, contactes-moi là tout de suite maintenant sans tarder&nbsp;!
           %form{:enctype => "text/plain", :method => "get", :action => "mailto:yves@brissaud.name"}
             %input{:type => "hidden", :name => "subject", :value => "Contact via log.winsos.net"}
             %textarea{:rows => 5, :cols => 70, :name => "body", :placeholder => "Votre message", :required => "required"}
             %br
-            %input{:type => "submit", :value => "Contactez-moi !"}
+            %input{:type => "submit", :value => "Travaillons ensemble !"}
           %h2
-            Divers
+            En savoir plus :
 
           %nav
             %ul
               %li
                 %a.icon-book{:href => "cv_Yves_Brissaud.pdf"}
-                  Curriculum Vitae (pdf)
+                  Mon Curriculum Vitae (pdf)
               - if @contents.account? "github"
                 %li
                   %a.icon-github-sign.color{:href => "#{@contents.account "github"}"}
