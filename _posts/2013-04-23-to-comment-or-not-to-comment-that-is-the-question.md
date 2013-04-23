@@ -9,7 +9,7 @@ published: true
 image: 2013/04/23/brave.png
 ---
 
-Hier, j'ai participé à une discussion fort intéressante, vis à vis de le nécessité, ou non, de commenter son code. Certains étaient _contre_, d'autres non.
+Hier, j'ai participé à une discussion fort intéressante, vis à vis de la nécessité, ou non, de commenter son code. Certains étaient _contre_, d'autres non.
 
 Voici pourquoi moi je suis pour le fait de commenter, et absolument contre la version courante, mauvais dérivé d'[XP][] et des méthodes agiles qui voudrait faire croire que _le code est la documentation_, justification au fait de ne pas commenter.
 
