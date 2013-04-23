@@ -41,7 +41,7 @@ Et il continue avec le classique « les commentaires ça sert à rien » :
 > * Ignore reason (2) for writting comments
 > * No code is ever that well written
 
-Evidemment, dès que j'ai commencé à rapporter ces propos, cette réaction est tout de suite apparue. Mais je pense, réellement, que c'est se tromper. Et que cette présentation à raison.
+Évidemment, dès que j'ai commencé à rapporter ces propos, cette réaction est tout de suite apparue. Mais je pense, réellement, que c'est se tromper. Et que cette présentation à raison.
 
 D'ailleurs, avant d'aller plus loin sur les commentaires, je voudrais vous montrer une petite présentation elle aussi très intéressante. Il s'agit d'une présentation de Laurent Bossavit de l'Institut Agile : [_« Making sense of Agile design practices »_][sense]. J'ai d'ailleurs eu la chance d'en voir une version (je crois un peu plus rapide) lors d'un MixIT il y a deux ans. Quoi qu'il en soit, cette présentation s'intéresse aux "bugs" de notre cerveau et montre, comment des pratiques telles que le TDD, le pair programming, nous aident à combattre ses bugs, du type _biais de confirmation_, _effet Dunning-Kruger_, etc.
 
@@ -51,9 +51,9 @@ Alors, vous l'avez regardée ? Pas mal, non ? Je trouve finalement que ça illus
 
 Bon, évidemment, on ne dit pas qu'il faut commenter tout est n'importe quoi. Les choses triviales ne sont pas à commenter. Ce qui est purement du ressort du langage ne l'est pas non plus. Mais plus important que tout, il faut commenter **l'intention**. Non pas ce que fait le code mais pourquoi il le fait. Car, parfois, souvent, l'intention ne peut pas être devinée à partir du code.
 
-Voici un exemple. Il n'est probablement pas parfait, mais ça devrait illustrer suffisament le principe.
+Voici un exemple. Il n'est probablement pas parfait, mais ça devrait illustrer suffisamment le principe.
 
-Prenez ce code, et expliquez-moi ce qu'il fait. Vous notterez que j'ai même laissé le commentaire d'entête pour aider.
+Prenez ce code, et expliquez-moi ce qu'il fait. Vous noterez que j'ai même laissé le commentaire d'entête pour aider.
 
 ```javascript
 /**
