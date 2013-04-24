@@ -6,6 +6,7 @@ author: Yves
 email: yves@brissaud.name
 twitter: _crev_
 published: true
+image: 2013/04/24/launch.png
 ---
 
 Je pense que vous avez tous suivi mes quelques articles sur le fait de déployer ou non en production le vendredi. Non ?
