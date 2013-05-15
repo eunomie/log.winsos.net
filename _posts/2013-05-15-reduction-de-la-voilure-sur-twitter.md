@@ -26,7 +26,7 @@ De tout cela apparait deux choses :
 - une duplication d'informations importante : entre twitter, mes rss, g+, … il m'arrive fréquemment de recevoir plusieurs fois la même information
 - une dispersion d'informations importante : une perte de temps monstrueuse à passer d'un outil à un autre, de discuter à droite, à gauche sans vraiment de pont entre tout ça
 
-Au final s'en est usant. Fatiguant de devoir passer d'un endroit à un autre. Fatiguant car trop d'informations par certains côtés.
+Au final c'en est usant. Fatiguant de devoir passer d'un endroit à un autre. Fatiguant car trop d'informations par certains côtés.
 
 Je pense qu'il est donc temps de réduire la voilure. Et c'est twitter qui va trinquer. Mon compte vient donc de passer dans un mode un peu plus spécial. J'ai désormais mis en place [OnlineMemory](https://github.com/edas/OnlineMemory). Il s'agit d'un petit script ruby qui va réaliser les choses suivantes :
 
