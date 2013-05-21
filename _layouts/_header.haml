@@ -1,2 +1,4 @@
 = render :partial => "common_header"
 %link{:rel => "stylesheet", :type => "text/css", :href => link_to("application.css")}
+-if @scope.stylesheet
+	%link{:rel => "stylesheet", :type => "text/css", :href => link_to(@scope.stylesheet)}
