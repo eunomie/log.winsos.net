@@ -8,6 +8,7 @@ twitter: _crev_
 published: true
 stylesheet: "doing-things-for-fun.css"
 description: …when you stop…
+image: images/quote.jpg
 ---
 
 <div class="quote">
