@@ -5,7 +5,7 @@ title: "Creativity"
 author: Yves
 email: yves@brissaud.name
 twitter: _crev_
-published: false
+published: true
 stylesheet: "creativity.css"
 description: A little definition of “creativity”
 image: images/quote.jpg
