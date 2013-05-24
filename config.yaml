@@ -13,5 +13,5 @@ accounts:
     coderwall: https://coderwall.com/crev
     linkedin: http://fr.linkedin.com/in/yvesbrissaud
 assets:
-    css: [application, cv, "doing-things-for-fun", "beautiful-things", "think-big", creativity]
+    css: [application, cv, "doing-things-for-fun", "beautiful-things", "think-big", creativity, future]
     js: [application]
