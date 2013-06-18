@@ -26,7 +26,7 @@ Le programme est écrit en go, c'est mon premier avec ce langage donc il y a pro
 
 Il est sous licence BSD.
 
-Les sources se trouvent ici : <https://github.com/CrEv/Sleipnir/>
+Les sources se trouvent ici : <https://github.com/eunomie/Sleipnir/>
 
 La configuration se fait dans un csv avec trois colonnes :
 

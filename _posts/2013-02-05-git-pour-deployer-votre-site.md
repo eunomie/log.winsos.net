@@ -141,8 +141,8 @@ On se déplace dans la copie de travail de ce qu'on push et on exécute la tâch
 Alors, c'était pas si difficile, non ? Ok cette présentation est sommaire, mais elle montre comment, en très peu de temps il est possible de radicalement changer la façon de travailler. Précédemment on avait l'habitude de générer les choses en local puis de les pousser manuellement vers le serveur. Ou au moins de demander tout volontairement. Avec les hooks (ce n'est évidemment pas limité à git) il est très simple d'automatiser cela un peu plus. L'avantage pour le développeur est qu'il ne quitte finalement pas ses outils, git ici. Le confort est donc bien meilleur pour le développeur, il n'y a plus à s'en soucier. Et ça fait un peu plus de temps de cerveau disponible pour coder correctement `;-)`
 
 [git]: http://git-scm.org
-[wlt]: https://github.com/CrEv/wlt
-[blog]: https://github.com/CrEv/log.winsos.net
+[wlt]: https://github.com/eunomie/wlt
+[blog]: https://github.com/eunomie/log.winsos.net
 [danterroches]: http://danterroches.org/
 [private paas]: http://notes.ceondo.com/mongrel2-zmq-paas/
 [gitdeploy]: http://xhtml.net/articles/git-deploiement-application-web

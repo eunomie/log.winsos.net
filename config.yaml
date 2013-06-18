@@ -1,6 +1,6 @@
 site_url: http://log.winsos.net
 deploy_to: yves@www.winsos.lan:/var/www/log/
-title: CrEv's log
+title: eunomie's log
 name: Yves Brissaud
 twitter_site: _crev_
 twitter_creator: _crev_
@@ -9,7 +9,7 @@ accounts:
     twitter: https://twitter.com/_crev_
     gplus: https://plus.google.com/112813954986166280487
     viadeo: http://fr.viadeo.com/fr/profile/yves.brissaud
-    github: http://github.com/CrEv
+    github: http://github.com/eunomie
     coderwall: https://coderwall.com/crev
     linkedin: http://fr.linkedin.com/in/yvesbrissaud
 assets:

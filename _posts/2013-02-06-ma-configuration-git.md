@@ -191,5 +191,5 @@ Voici, un petit aperçu rapide de ma conf. Au final rien de très spécial, just
 [stgit]: http://www.procode.org/stgit/
 [legit]: http://www.git-legit.org/
 [hub]: http://defunkt.io/hub/
-[linuxfr-solarized]: https://github.com/CrEv/linuxfr-solarized
+[linuxfr-solarized]: https://github.com/eunomie/linuxfr-solarized
 [linuxfr]: http://linuxfr.org

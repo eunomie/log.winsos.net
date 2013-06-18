@@ -38,7 +38,7 @@ L'url de l'image doit être relative à la racine du site, du fait de l'usage de
 A noter que pour que twitter autorise l'affichage des cartes en provenance de votre site, il faut en faire la demande à l'url https://dev.twitter.com/form/participate-twitter-cards et vous receverez une réponse sous 5 à 10 jours ouvrés. Et be, je savais pas qu'ils étaient si tatillons... En attendant vous pouvez tester vos url en utilisant le [twitter card tester][].
 
 
-[wlt]: https://github.com/CrEv/wlt
+[wlt]: https://github.com/eunomie/wlt
 [twitter cards]: https://dev.twitter.com/docs/cards
 [opengraph]: http://ogp.me/
 [schema.org]: http://schema.org

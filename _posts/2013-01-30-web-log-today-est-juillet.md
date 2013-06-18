@@ -65,7 +65,7 @@ La majeur partie de _Web Log Today_ est la commande `wlt`. Cette commande est ba
 2. Récupération des sources
 
     ```sh
-    git clone https://github.com/CrEv/wlt.git ~/.wlt
+    git clone https://github.com/eunomie/wlt.git ~/.wlt
     cd ~/.wlt
     ```
 
@@ -195,7 +195,7 @@ default_description: My personal weblog
 accounts:
     twitter: https://twitter.com/_crev_
     gplus: https://plus.google.com/112813954986166280487
-    github: http://github.com/CrEv
+    github: http://github.com/eunomie
     coderwall: https://coderwall.com/crev
     linkedin: http://fr.linkedin.com/in/yvesbrissaud
 
@@ -432,7 +432,7 @@ Donc voilà, je ne sais pas comment ce petit soft évoluera, la principal étant
 
 ## Il ne manquerait pas un truc ?
 
-Ha oui, l'url à laquelle trouver tout cela : https://github.com/CrEv/wlt
+Ha oui, l'url à laquelle trouver tout cela : https://github.com/eunomie/wlt
 
 [episode1]: http://log.winsos.net/2012/12/03/ecrire-une-page-web-de-nos-jours.html
 [episode2]: http://log.winsos.net/2012/12/05/ecrire-une-page-web-de-nos-jours-suite-des-aventures.html

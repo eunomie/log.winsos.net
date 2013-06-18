@@ -28,7 +28,7 @@
 [accounts_twitter]: https://twitter.com/_crev_
 [accounts_gplus]: https://plus.google.com/112813954986166280487
 [accounts_viadeo]: http://fr.viadeo.com/fr/profile/yves.brissaud
-[accounts_github]: http://github.com/CrEv
+[accounts_github]: http://github.com/eunomie
 [accounts_coderwall]: https://coderwall.com/crev
 [accounts_linkedin]: http://fr.linkedin.com/in/yvesbrissaud
 [accounts_linuxfr]: https://linuxfr.org/users/CrEv

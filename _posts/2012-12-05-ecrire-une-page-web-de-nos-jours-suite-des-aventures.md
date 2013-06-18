@@ -239,5 +239,5 @@ Les sources utilisées sont disponibles sur [un dépôt github][] et le résulta
 [très haut niveau]: http://fr.wikipedia.org/wiki/Bullshit
 [parmis les meilleurs]: http://fr.wikipedia.org/wiki/Ssii
 [le prix de vos oeuvres d'art]: http://www.lemonde.fr/technologies/article/2010/08/18/france-fr-un-site-de-4-millions-d-euros_1399998_651865.html
-[un dépôt github]: https://github.com/CrEv/web_page_today
+[un dépôt github]: https://github.com/eunomie/web_page_today
 [visible]: http://www.winsos.net/web_page_today/

@@ -55,4 +55,4 @@ Bon, il ne me reste plus qu'à coder tout le reste, c'est à dire toutes les pet
 [unsucking]: https://speakerdeck.com/holman/unsucking-your-teams-development-environment
 [hdiutil]: http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/hdiutil.1.html
 [installer]: https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man8/installer.8.html
-[asantaa]: https://github.com/CrEv/asantaa
+[asantaa]: https://github.com/eunomie/asantaa

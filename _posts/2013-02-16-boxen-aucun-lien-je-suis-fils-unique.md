@@ -24,7 +24,7 @@ Quoi qu'il en soit, github montre encore une fois qu'ils utilisent beaucoup d'ou
 
 ![hero](hero.png)
 
-[asentaa]: https://github.com/CrEv/asentaa
+[asentaa]: https://github.com/eunomie/asentaa
 [boxen]: http://boxen.github.com/
 [post]: http://log.winsos.net/2013/02/14/installer-des-applications-mac-depuis-du-code.html
 

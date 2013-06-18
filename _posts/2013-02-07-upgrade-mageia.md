@@ -74,5 +74,5 @@ Vu la facilité, je pense que je migrerai probablement rapidement en mageia 3 sa
 
 [mageia]: http://www.mageia.org
 [deploy]: http://log.winsos.net/2013/02/05/git-pour-deployer-votre-site.html
-[wlt]: https://github.com/CrEv/wlt
+[wlt]: https://github.com/eunomie/wlt
 [docmageia]: https://wiki.mageia.org/en/Mageia_2_:_Notes_de_Version_-_FR#Mise_.C3.A0_niveau_en_ligne.2C_en_utilisant_urpmi_.28ligne_de_commande.2FCLI.29

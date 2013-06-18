@@ -9,7 +9,7 @@ published: true
 nolinks: true
 ---
 
-Ça y est, j'ai posé les sources de ce blog sur github. Vous pouvez donc voir les sources utilisées pour générer ce blog sur mon dépôt [log.winsos.net](https://github.com/CrEv/log.winsos.net).
+Ça y est, j'ai posé les sources de ce blog sur github. Vous pouvez donc voir les sources utilisées pour générer ce blog sur mon dépôt [log.winsos.net](https://github.com/eunomie/log.winsos.net).
 
 Évidemment cela utilise la version `master` de [Web Log Today](http://log.winsos.net/2013/01/30/web-log-today-est-juillet.html). Vous pouvez donc voir comment je l'utilise pour faire mon site.
 
