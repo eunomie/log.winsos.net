@@ -78,7 +78,7 @@ Voici ce que j'ai pour le moment :
 
 En avez-vous d'autres ? Ou des livres par exemple ?
 
-Si vous voulez, vous pouvez me répondre par twitter ou, mieux, sur [g+]().
+Si vous voulez, vous pouvez me répondre par twitter ou, mieux, sur [g+](https://plus.google.com/u/0/112813954986166280487/posts/Sh1gFiqrX84).
 
 
 [ada]: https://fr.wikipedia.org/wiki/Ada_(langage)
