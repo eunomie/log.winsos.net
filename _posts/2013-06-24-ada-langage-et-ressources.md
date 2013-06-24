@@ -13,7 +13,7 @@ Récemment j'ai commencé à regarder un peu le langage [Ada][ada]. C'est un lan
 
 Bon, un point négatif pour commencer : la syntaxe. C'est vrai que j'ai plus été habitué aux syntaxes type `c`, `c++`, `c#`, `java`, `javascript` que `pascal` ou `basic` par exemple, même si je fais du `ruby`. Au premier abord on peut trouver la syntaxe un peu lourde, le respect des majuscules, etc. Mais utiliser le mod ada pour emacs vous aidera mine de rien, entre autre en gérant tout seul comme un grand les majuscules des variables ! Et ça c'est juste génial !
 
-Ensuite, le principe même du langage, son sytème de type essentiellement, est vraiment intéressant. Je ne vais pas vous le détailler, il y a pas mal de ressources sur le sujet (et c'est aussi une question au travers de ce billet) mais juste prendre un exemple.
+Ensuite, le principe même du langage, son système de type essentiellement, est vraiment intéressant. Je ne vais pas vous le détailler, il y a pas mal de ressources sur le sujet (et c'est aussi une question au travers de ce billet) mais juste prendre un exemple.
 
 Lorsque vous voulez travailler avec des heures dans un langage quelconque, vous allez utiliser en général un entier. Ok, ça marche, pourquoi pas. Le problème initial est qu'il est possible de mélanger des choux et des carottes. Par exemple, vous pouvez affecter la variable heure avec une valeur d'incrément d'une boucle. Ben oui, pourquoi pas puisque c'est un entier aussi ? (oui ce n'est pas souhaitable, mais les bugs existent souvent parce que des choses non souhaitables arrivent)
 
@@ -59,13 +59,13 @@ type Hour is mod 24;
 
 Alors, elle est pas belle la vie ?
 
-De la même manière, on peut facilement faire des intervales genre
+De la même manière, on peut facilement faire des intervalles genre
 
 ```ada
 type Day_Of_Year is range 1..366;
 ```
 
-Bon tout ça pour dire que Ada m'intéresse de plus en plus. Il est peut-être moins _fun_ que certains langages, mais je pense que la satisfaction de bien faire les choses l'emportera sans aucun doute ! Finalement ça donne un peu l'impression que Ada demande à ce qu'on réfléchisse avant de coder, alors que de plus en plus dans les autres langages on voit beaucoup de monde coder puis réfléchir lorsque cela ne fonctionne pas. Mais surtout, ces systèmes sont intégrés aux langage et ne nécessitent pas de lib externe supplémentaire (comme par exemple pour faire de la programamtion par contrat).
+Bon tout ça pour dire que Ada m'intéresse de plus en plus. Il est peut-être moins _fun_ que certains langages, mais je pense que la satisfaction de bien faire les choses l'emportera sans aucun doute ! Finalement ça donne un peu l'impression que Ada demande à ce qu'on réfléchisse avant de coder, alors que de plus en plus dans les autres langages on voit beaucoup de monde coder puis réfléchir lorsque cela ne fonctionne pas. Mais surtout, ces systèmes sont intégrés aux langage et ne nécessitent pas de lib externe supplémentaire (comme par exemple pour faire de la programmation par contrat).
 
 Maintenant, à vous de travailler un peu : connaissez-vous, avez-vous des ressources intéressantes concernant Ada ?
 
