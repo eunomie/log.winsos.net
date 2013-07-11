@@ -1,0 +1,14 @@
+---
+layout: master
+---
+
+%article
+  %div(itemprop="articleBody")
+    %h1= spanify title
+
+    = content
+
+%footer
+  = render :partial => "twitter_account"
+  = render :partial => "twitter_share_account"
+  = render :partial => "gplus_share"
