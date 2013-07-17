@@ -177,10 +177,10 @@ Comment réaliser une bonne interface utilisateur (sur le web) ? Cet article ima
 * SOLID : <http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>
 
 [realtime]: http://www.amazon.fr/Real-Time-Systems-Programming-Languages-POSIX/dp/0321417453/ref=sr_1_1 "Real-time Systems and Programming Languages: Ada, Real-Time Java and C/Real-Time POSIX"
-* Real-time Systems and Programming Languages: Ada, Real-Time Java and C/Real-Time POSIX : <http://www.amazon.fr/Real-Time-Systems-Programming-Languages-POSIX/dp/0321417453/ref=sr_1_1 >
+* Real-time Systems and Programming Languages: Ada, Real-Time Java and C/Real-Time POSIX : <http://www.amazon.fr/Real-Time-Systems-Programming-Languages-POSIX/dp/0321417453>
 
 [ada]: http://www.amazon.fr/Programming-Ada-2005-John-Barnes/dp/0321340787/ref=sr_1_3 "Programming in Ada 2005"
-* Programming in Ada 2005 : <http://www.amazon.fr/Programming-Ada-2005-John-Barnes/dp/0321340787/ref=sr_1_3>
+* Programming in Ada 2005 : <http://www.amazon.fr/Programming-Ada-2005-John-Barnes/dp/0321340787>
 
 
 ### Misc
