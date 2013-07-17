@@ -10,6 +10,7 @@ Voici des liens vers l'ensemble de mes articles de veille, que ce soit sur ce bl
 
 Certains ont plusieurs liens (en général vers des dépêches ou journaux linuxfr). Bien que le contenu soit en gros identique, les commentaires peuvent parfois apporter des informations intéressantes.
 
+* [De tout, de rien, des bookmarks, du bla bla #29](http://log.winsos.net/2013/07/17/de-tout-de-rien-des-bookmarks-du-bla-bla-29.html) aussi en [dépêche linuxfr](https://linuxfr.org/news/de-tout-de-rien-des-bookmarks-du-bla-bla-29) (17/07/2013)
 * [De tout, de rien, des bookmarks, du bla bla #10](http://log.winsos.net/2013/03/08/de-tout-de-rien-des-bookmarks-du-bla-bla-10.html) aussi en [dépêche linuxfr](https://linuxfr.org/news/de-tout-de-rien-des-bookmarks-du-bla-bla-10) (08/03/2013)
 * [De tout, de rien, des bookmarks, du bla bla #47](http://log.winsos.net/2012/11/23/de-tout-de-rien-des-bookmarks-du-bla-bla-47.html), aussi en [dépêche linuxfr](https://linuxfr.org/news/de-tout-de-rien-des-bookmarks-du-bla-bla-47) (23/11/2012)
 * [De tout, de rien, des bookmarks, du bla bla #45](http://log.winsos.net/2012/11/07/de-tout-de-rien-des-bookmarks-du-bla-bla-45.html) aussi en [dépêche linuxfr](http://linuxfr.org/news/de-tout-de-rien-des-bookmarks-du-bla-bla-45) (7/11/2012)

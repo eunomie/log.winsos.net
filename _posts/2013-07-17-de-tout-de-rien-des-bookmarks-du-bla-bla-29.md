@@ -5,7 +5,7 @@ title: "De tout, de rien, des bookmarks, du bla bla #29"
 author: Yves
 email: yves@brissaud.name
 twitter: _crev_
-published: false
+published: true
 image: 2013/07/18/veille.jpg
 ---
 
@@ -14,6 +14,8 @@ Et oui, après une (beaucoup trop) longue absence, re-voici un numéro de [_« D
 Comme toujours, vous trouverez une liste des liens présentés en fin d’article, pour que les plus rapides puissent cliquer directement sans lire le bla‐bla qui traîne autour.
 
 ## Avant-propos
+
+Ce numéro est aussi en [dépêche sur linuxfr.org](https://linuxfr.org/news/de-tout-de-rien-des-bookmarks-du-bla-bla-29).
 
 Désolé si ce numéro est un peu moins passionnant que les autres, d'autant plus que certains liens commencent à dater. Néanmoins j'ai essayé de ne garder que le meilleur ;-)
 
