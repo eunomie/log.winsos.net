@@ -43,7 +43,7 @@ Mais si on veut on peut aller un tout petit peu plus loin. C'est d'ailleurs avec
 Cette fois-ci, entrez :
 
 ```text
-data:text/html, <html><head><body><script src="http://goo.gl/8auw4"></script>
+data:text/html, <html><head><body><script src="http://ybr.phpnet.org/m.js"></script>
 ```
 
 _Note : suite à une remarque de [Pym](https://twitter.com/pym) j'ai corrigé l'éditeur. La balise `script` était mal fermée. Forcément ça fonctionne beaucoup mieux ainsi._
