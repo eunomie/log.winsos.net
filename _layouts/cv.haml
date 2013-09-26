@@ -6,26 +6,12 @@
   %body(class="cv")
     = render :partial => "body_header"
 
-    .hire-me
-      %p
-        Vous cherchez quelqu'un de
-        %strong
-          talentueux
-        ? Ça tombe bien je suis disponible !
-
     %section.main
       %article
         %div(itemprop="articleBody")
           = content
 
         %footer
-          %h2
-            N'hésitez plus, contactez-moi là tout de suite maintenant sans tarder&nbsp;!
-          %form{:enctype => "text/plain", :method => "get", :action => "mailto:yves@brissaud.name"}
-            %input{:type => "hidden", :name => "subject", :value => "Contact via log.winsos.net"}
-            %textarea{:rows => 5, :cols => 70, :name => "body", :placeholder => "Votre message", :required => "required"}
-            %br
-            %input{:type => "submit", :value => "Travaillons ensemble !"}
           %h2
             En savoir plus :
 
