@@ -5,7 +5,7 @@ title: "De tout, de rien, des bookmarks, du bla bla #42"
 author: Yves
 email: yves@brissaud.name
 twitter: _crev_
-published: false
+published: true
 image: veille.jpg
 ---
 
