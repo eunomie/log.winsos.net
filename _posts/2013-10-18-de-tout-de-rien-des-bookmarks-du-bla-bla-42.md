@@ -37,7 +37,7 @@ Si vous souhaitez vous mettre à Clojure, voici un lien regroupant de nombreuses
 
 ### Misc
 
-Il existe de très nombreux logiciels de gestion de calendrier, permettant de représenter par exemple divers projets et les personnes travaillant dessus. Il existe aussi beaucoup de moyens plus physiques, par exemple à base de postits, tableaux, etc. Mais histoire de varier un peu, voici le résultat du travail d'un studio londonien, Vitamins : le [Lego Calendar][legocalendar]. Je ne sais pas si c'est réellement pratique et utilisable, mais j'adore l'idée ! Par certains côtés ça me fait penser aussi aux carnets moleskine qui intègrent une brique lego dans la couverture.
+Il existe de très nombreux logiciels de gestion de calendrier, permettant de représenter par exemple divers projets et les personnes travaillant dessus. Il existe aussi beaucoup de moyens plus physiques, par exemple à base de postits, tableaux, etc. Mais histoire de varier un peu, voici le résultat du travail d'un studio londonien, Vitamins : le [Lego Calendar][legocalendar]. Je ne sais pas si c'est réellement pratique et utilisable, mais j'adore l'idée ! Par certains côtés ça me fait penser aussi aux carnets [moleskine][] qui intègrent une brique lego dans la couverture.
 
 ### Graphisme, design & co
 
@@ -78,6 +78,9 @@ Voici un projet graphique vraiment sympa : [The Zoomquilt][zoomquilt]. C'est un 
 
 [legocalendar]: http://vitaminsdesign.com/projects/lego-calendar/ "Lego Calendar"
 * Lego Calendar : <http://vitaminsdesign.com/projects/lego-calendar/>
+
+[moleskine]: http://www.moleskine.com/fr/news/lego "Carnet Moleskine Lego"
+* Carnets Moleskine Lego : <http://www.moleskine.com/fr/news/lego>
 
 
 ### Graphisme, design & co
