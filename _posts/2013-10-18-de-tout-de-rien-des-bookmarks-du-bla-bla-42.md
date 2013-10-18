@@ -15,7 +15,7 @@ image: veille.jpg
 
 Pfiou, ça fait longtemps que je n'avais pas repris ma veille. Et en plus vous verrez il n'y a pas des tonnes de lien mais bon, spa grave. En cause, changement (encore) de boulot, boulot loin de chez moi et pas de net (ni vraiment de réseau) là où je vis, des vacances assez loin du net aussi, etc. Bref, je reprend tranquillement.
 
-Pendant ce temps, j'apprend Ada et Clojure, ça ouvre petit à petit de nouveaux horizons et probablement de nouveaux types de liens pour les prochaines fois. A ce propos, et surtout si vous avez l'habitude de coder avec des langages _classiques_, je vous conseil de tester ces langages. Ada est assez particulier mais vraiment puissant, par exemple concernant tout ce qui est exécution concurrent c'est vraiment bien fait. Clojure, c'est pas mal, moi qui n'avait jamais fait de fonctionnel ça change vraiment.
+Pendant ce temps, j'apprend Ada et Clojure, ça ouvre petit à petit de nouveaux horizons et probablement de nouveaux types de liens pour les prochaines fois. A ce propos, et surtout si vous avez l'habitude de coder avec des langages _classiques_, je vous conseil de tester ces langages. Ada est assez particulier mais vraiment puissant, par exemple concernant tout ce qui est exécution concurrente c'est vraiment bien fait. Clojure, c'est pas mal, moi qui n'avait jamais fait de fonctionnel ça change vraiment.
 
 Ce numéro est aussi en [journal sur linuxfr.org]().
 
