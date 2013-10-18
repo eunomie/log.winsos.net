@@ -15,7 +15,7 @@ image: veille.jpg
 
 Pfiou, ça fait longtemps que je n'avais pas repris ma veille. Et en plus vous verrez il n'y a pas des tonnes de lien mais bon, spa grave. En cause, changement (encore) de boulot, boulot loin de chez moi et pas de net (ni vraiment de réseau) là où je vis, des vacances assez loin du net aussi, etc. Bref, je reprend tranquillement.
 
-Pendant ce temps, j'apprend Ada et Clojure, ça ouvre petit à petit de nouveaux horizons et probablement de nouveaux types de liens pour les prochaines fois. A ce propos, et surtout si vous avez l'habitude de coder avec des langages _classiques_, je vous conseil de tester ces langages. Ada est assez particulier mais vraiment puissant, par exemple concernant tout ce qui est exécution concurrente c'est vraiment bien fait. Clojure, c'est pas mal, moi qui n'avait jamais fait de fonctionnel ça change vraiment.
+Pendant ce temps, j'apprend [Ada][] et [Clojure][clojure], ça ouvre petit à petit de nouveaux horizons et probablement de nouveaux types de liens pour les prochaines fois. A ce propos, et surtout si vous avez l'habitude de coder avec des langages _classiques_, je vous conseil de tester ces langages. Ada est assez particulier mais vraiment puissant, par exemple concernant tout ce qui est exécution concurrente c'est vraiment bien fait. Clojure, c'est pas mal, moi qui n'avait jamais fait de fonctionnel ça change vraiment.
 
 Ce numéro est aussi en [journal sur linuxfr.org]().
 
@@ -33,7 +33,7 @@ Souvent lorsque quelqu'un se lance dans du développement javascript, l'une des 
 
 Lorsqu'on est développeur, on a souvent besoin d'avoir accès à de la documentation. Mais par contre, cela nécessite d'avoir un navigateur, de changer d'outil, souvent quitter son éditeur de texte. Et la recherche n'est pas toujours facile, pratique. [Dash][dash] est une application (pour mac uniquement malheureusement) qui regroupe en un même endroit de très nombreuses documentations de programmation. Et elle se lie à différents éditeurs, ou même permet de réaliser une recherche basée sur la sélection courante, depuis un raccourcis clavier, ce qui permet de ne pas quitter son éditeur pour chercher la documentation. Plutôt pratique, je ne sais pas si des équivalents existent sous linux, mais si ce n'est pas le cas ça serait une bonne idée je pense.
 
-Si vous souhaitez vous mettre à Clojure, voici un lien regroupant de nombreuses ressources sur le langage : [Learn Clojure][learnclojure]. Et pour s'entrainer à Clojure, vous pouvez aussi regarder du côté de [Labrepl][labrepl]. Il s'agit d'un environnement permettant d'explorer le langage entre autre en présentant des exercices étapes par étapes. C'est plutôt sympa, et c'est open source sous [Eclipse Public License 1.0][epl].
+Si vous souhaitez vous mettre à [Clojure][clojure], voici un lien regroupant de nombreuses ressources sur le langage : [Learn Clojure][learnclojure]. Et pour s'entrainer à Clojure, vous pouvez aussi regarder du côté de [Labrepl][labrepl]. Il s'agit d'un environnement permettant d'explorer le langage entre autre en présentant des exercices étapes par étapes. C'est plutôt sympa, et c'est open source sous [Eclipse Public License 1.0][epl].
 
 ### Misc
 
@@ -53,6 +53,9 @@ Voici un projet graphique vraiment sympa : [The Zoomquilt][zoomquilt]. C'est un 
 
 ### Développement
 
+[Ada]: https://fr.wikipedia.org/wiki/Ada_(langage) "Ada"
+* Ada : <https://fr.wikipedia.org/wiki/Ada_(langage)>
+
 [mitbook]: https://mitpress.mit.edu/sicp/full-text/book/book.html "MIT Book"
 * Structure and Interpretation of Computer Programs : <https://mitpress.mit.edu/sicp/full-text/book/book.html>
 
@@ -64,6 +67,9 @@ Voici un projet graphique vraiment sympa : [The Zoomquilt][zoomquilt]. C'est un 
 
 [dash]: http://kapeli.com/dash "Dash - Documentation Browser, Snippet Manager"
 * Dash - Documentation Browser, Snippet Manager : <http://kapeli.com/dash>
+
+[clojure]: http://clojure.org/ "Clojure"
+* Clojure : <http://clojure.org/>
 
 [learnclojure]: http://learn-clojure.com "Learn Clojure"
 * Learn Clojure : <http://learn-clojure.com>
