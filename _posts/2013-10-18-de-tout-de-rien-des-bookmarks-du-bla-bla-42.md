@@ -53,10 +53,10 @@ Voici un projet graphique vraiment sympa : [The Zoomquilt][zoomquilt]. C'est un 
 
 ### Développement
 
-[mitbook]: https://mitpress.mit.edu/sicp/full-text/book/book.html ""
+[mitbook]: https://mitpress.mit.edu/sicp/full-text/book/book.html "MIT Book"
 * Structure and Interpretation of Computer Programs : <https://mitpress.mit.edu/sicp/full-text/book/book.html>
 
-[smalltalk]:  "The early history of Smalltalk"
+[smalltalk]: http://propella.sakura.ne.jp/earlyHistoryST/EarlyHistoryST.html "The early history of Smalltalk"
 * The early history of Smalltalk : <http://propella.sakura.ne.jp/earlyHistoryST/EarlyHistoryST.html>
 
 [jsproto]: http://blog.sklambert.com/javascript-prototype/ "How Javascript Prototype Really Works"
