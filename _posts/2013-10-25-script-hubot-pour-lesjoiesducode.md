@@ -87,9 +87,9 @@ inclusion dans les scripts hubot.
 [code]: http://thecodinglove.com "The coding love"
 [campfire]: http://campfirenow.com
 [hip chat]: http://www.hipchat.com
-[hubot-adapters]
-[nodejs]
-[hubot]
+[hubot-adapters]: https://github.com/eunomie/hubot/blob/master/docs/adapters.md
+[nodejs]: http://nodejs.org
+[hubot]: http://hubot.github.com
 [cheerio]: https://github.com/MatthewMueller/cheerio
-[ent]
+[ent]: https://github.com/substack/node-ent
 [github]: https://github.com/eunomie/hubot-codinglove "Dépôt github"
