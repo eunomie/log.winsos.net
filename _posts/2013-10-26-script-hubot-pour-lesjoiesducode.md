@@ -6,7 +6,7 @@ author: Yves
 email: yves@brissaud.name
 twitter: _crev_
 published: false
-image: 2013/10/25/hubot-scripts.jpg
+image: 2013/10/26/hubot-scripts.jpg
 ---
 
 Si vous êtes développeur — ou au moins comprenez leur humour — vous appréciez
@@ -30,7 +30,7 @@ coding love !
 Une fois la bonne commande entrée, [hubot][] vous répondra avec le gif animé
 souhaité précédé du texte de description comme par exemple :
 
-![Dernière les joies du code](lastlesjoiesducode.jpg)
+![Dernière les joies du code](lastlesjoiesducode.png)
 
 ## Comment qu'on fait ?
 
