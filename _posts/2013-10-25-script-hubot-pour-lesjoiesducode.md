@@ -5,8 +5,8 @@ title: "Script hubot pour lesjoiesducode"
 author: Yves
 email: yves@brissaud.name
 twitter: _crev_
-published: false
-image: 2013/10/26/hubot-scripts.jpg
+published: true
+image: 2013/10/25/hubot-scripts.jpg
 ---
 
 Si vous êtes développeur — ou au moins comprenez leur humour — vous appréciez
@@ -40,6 +40,11 @@ ajoutez comme dépendance :
 ```json
 "hubot-codinglove": "0.1.0"
 ```
+
+Ajoutez l'entrée dans le fichier `external-scripts.json` (créez le s'il n'existe
+pas)
+
+    ["hubot-codinglove"]
 
 Et déployez-le de nouveau !
 
@@ -79,8 +84,8 @@ L'utilisation est assez basique, mais juste comme il faut.
 ## Et le code justement
 
 Mais que serait tout cela sans le dépôt-github-qui-va-bien ? Rien évidemment.
-Vous trouverez donc le code [ici][github] en attendant, je l'espère, une
-inclusion dans les scripts hubot.
+Vous trouverez donc le code [ici][codinglove]. Et histoire que ce soit encore plus
+simple, vous le trouverez [forké][fork] dans l'organisation [hubot-scripts][].
 
 
 [joies]: http://lesjoiesducode.tumblr.com "Les joies du code"
@@ -92,4 +97,6 @@ inclusion dans les scripts hubot.
 [hubot]: http://hubot.github.com
 [cheerio]: https://github.com/MatthewMueller/cheerio
 [ent]: https://github.com/substack/node-ent
-[github]: https://github.com/eunomie/hubot-codinglove "Dépôt github"
+[codinglove]: https://github.com/eunomie/hubot-codinglove "Dépôt github"
+[fork]: https://github.com/hubot-scripts/hubot-codinglove "Fork"
+[hubot-scripts]: https://github.com/hubot-scripts
