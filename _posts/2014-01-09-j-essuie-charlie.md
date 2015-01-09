@@ -5,7 +5,7 @@ title: "J'essuie Charlie"
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
-published: false
+published: true
 image: 2014/01/09/j_essuie_charlie_thumb.jpg
 ---
 
