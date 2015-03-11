@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [misc]
-title: "Anesthésie générale enceinte"
+title: "Anesthésie générale et allaitement"
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
