@@ -22,7 +22,7 @@ classes is what allows you to extend the language, to write a specific
 and more elegant language according to _your_ needs. For me it's one of the key
 feature of [RoR](http://rubyonrails.org/) by example.
 
-Let's take a single example. I have a block in which I get an array
+Let's take a simple example. I have a block in which I get an array
 of strings. And I want to get an array containing only the first line
 of each item. I place myself in the situation I write a library,
 so I want to offer the user the more easy way to use it.
@@ -92,7 +92,7 @@ MyClass.todo {
 }
 ```
 
-Better. But you can go a little further in extending the `Array` class.
+Better. But you can go a little further in extending the `Array` class. It allows you to stay in a more object-oriented way.
 The goal is to write:
 
 ```ruby
