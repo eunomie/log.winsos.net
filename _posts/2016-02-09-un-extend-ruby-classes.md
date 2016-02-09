@@ -17,17 +17,19 @@ But before to dive in the subject, why would you extend default (or not)
 classes?
 
 I always find in ruby a kind of elegance. You can read parts of code as
-it is a book and you can write as you think. And the power to extend
+it is a book and you can write as you think. The power to extend
 classes is what allows you to extend the language, to write a specific
 and more elegant language according to _your_ needs. For me it's one of the key
 feature of [RoR](http://rubyonrails.org/) by example.
+
+## A simple example
 
 Let's take a simple example. I have a block in which I get an array
 of strings. And I want to get an array containing only the first line
 of each item. I place myself in the situation I write a library,
 so I want to offer the user the more easy way to use it.
 
-This is a simple version of it:
+Here is a basic version:
 
 ```ruby
 class MyClass
@@ -57,11 +59,13 @@ MyClass.todo {
 }
 ```
 
-> The [`instance_eval`][instance_eval] allows the block to be execute _inside_ the instance
+> The [*instance_eval*][instance_eval] allows the block to be execute _inside_ the instance
 > and access to the methods of `MyClass`.
 
 This is functionnal. But honnestly, if the operation is frequent you can
 help a little your users.
+
+## Without extending the language
 
 First, we can place the map in a method.
 
@@ -93,6 +97,9 @@ MyClass.todo {
 ```
 
 Better. But you can go a little further in extending the `Array` class. It allows you to stay in a more object-oriented way.
+
+## Opening the array
+
 The goal is to write:
 
 ```ruby
@@ -124,7 +131,9 @@ It works!
 
 Simply imagine the class definition is splitted into small parts, the real definition is the aggregation of all partial classes.
 
-An other solution is to extend the class using [`class_eval`][class_eval]:
+## Next level: class_eval
+
+An other solution is to extend the class using [*class_eval*][class_eval]:
 
 ```ruby
 Array.class_eval do
@@ -143,6 +152,8 @@ end
 It's very simimlar but you can do more differents things with it. By example you
 are able to encapsulate this in a method, replace `Array` by an parameter,
 use `myInstance.class` to create a real dynamic extension, etc.
+
+## Openning on demand
 
 But now, imagine you want to offer this possibility only in your block. You don't
 want to polluate all arrays with your specific method. You want to extend `Array`
@@ -183,9 +194,11 @@ MyClass.todo {
 }
 ```
 
+## Close on demand
+
 In this version, before the call to `todo`, the array class is not extended. But now you need to remove the extension after the call to `instance_eval` to complete the job.
 
-[`remove_method`][remove_method] will make you happy!
+[*remove_method*][remove_method] will make you happy!
 
 ```ruby
 class MyClass
@@ -230,6 +243,8 @@ MyClass.todo {
 Now, the array `arr` has a method `first_lines` in the block.
 But outside the execution of this block, this method is not
 defined.
+
+## Conclusion
 
 You can now extend any class (even default classes like `String`, `Array`, etc)
 only for a given block. Your user will be able to write elegant and readable
