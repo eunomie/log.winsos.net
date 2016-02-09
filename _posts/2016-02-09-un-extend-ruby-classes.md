@@ -5,7 +5,7 @@ title: "(un)extend ruby classes"
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
-published: false
+published: true
 image: 2016/02/09/ruby.png
 ---
 
