@@ -57,7 +57,7 @@ MyClass.todo {
 }
 ```
 
-> The `[instance_eval][]` allows the block to be execute _inside_ the instance
+> The [`instance_eval`][instance_eval] allows the block to be execute _inside_ the instance
 > and access to the methods of `MyClass`.
 
 This is functionnal. But honnestly, if the operation is frequent you can
@@ -124,7 +124,7 @@ It works!
 
 Simply imagine the class definition is splitted into small parts, the real definition is the aggregation of all partial classes.
 
-An other solution is to extend the class using `[class_eval][]`:
+An other solution is to extend the class using [`class_eval`][class_eval]:
 
 ```ruby
 Array.class_eval do
@@ -185,7 +185,7 @@ MyClass.todo {
 
 In this version, before the call to `todo`, the array class is not extended. But now you need to remove the extension after the call to `instance_eval` to complete the job.
 
-`[remove_method][]` will make you happy!
+[`remove_method`][remove_method] will make you happy!
 
 ```ruby
 class MyClass
