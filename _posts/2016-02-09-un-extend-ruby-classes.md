@@ -194,7 +194,7 @@ MyClass.todo {
 }
 ```
 
-## Close on demand
+## Closing on demand
 
 In this version, before the call to `todo`, the array class is not extended. But now you need to remove the extension after the call to `instance_eval` to complete the job.
 
