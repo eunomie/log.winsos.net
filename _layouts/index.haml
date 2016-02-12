@@ -1,5 +1,5 @@
 !!! 5
-%html(lang="en" prefix="og: http://ogp.me/ns#")
+%html(lang="en" prefix="og: http://ogp.me/ns#" itemscope)
   %head
     = render :partial => "header"
 
@@ -24,7 +24,7 @@
                     %a.icon-tag{:href => link_to("tags/#{tag}")}
                       = tag
               - if post.image?
-                %img{:src => post.image}
+                %img{:src => post.image, :alt => post.title}
               - if post.description?
                 = post.description
               - else
@@ -37,7 +37,7 @@
                     = spanify post.title
                 %blockquote
                   - if post.image?
-                    %img{:src => post.image}
+                    %img{:src => post.image, :alt => post.title}
                   - if post.description?
                     = post.description
                   - else
