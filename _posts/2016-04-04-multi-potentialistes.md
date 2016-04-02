@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [ted]
+tags: [ted, humeur, perso]
 title: "Multi-potentialistes"
 author: yves
 emails: yves.brissaud@gmail.com
