@@ -5,7 +5,7 @@ title: "Multi-potentialistes"
 author: yves
 emails: yves.brissaud@gmail.com
 twitter: _crev_
-published: false
+published: true
 description: "Pourquoi certains d'entre nous n'ont pas de vocation"
 image: 2016/04/04/emilie_wapnick.jpg
 ---
