@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [dev, lambda, aws, serverless]
+tags: [dev, lambda, aws, serverless, terraform]
 title: "Lambda et serverless, vers l'infini et au delà"
 author: Yves
 email: yves.brissaud@gmail.com
@@ -11,7 +11,7 @@ published: false
 Depuis quelques temps déjà on entend de plus en plus parler de _serverless_, d'Amazon _Lambda_, de _FaaS_ (Function as a Service).
 Et en petit à petit on voit des comparatifs (en général sur les aspects financiers) pour mettre en relation ces nouvelles
 possibilités face aux infrastructures plus classiques genre machines virtuelles EC2 (pour rester chez Amazon). De ce que j'en ai lu
-ces comparatifs se trompent quasiment tous sur l'intérêt des _Lambda_ et vous allez voir pourquoi.
+ces comparatifs se trompent quasiment tous sur l'intérêt des _Lambda_ et voici pourquoi.
 
 Dernier en date que j'ai lu [ici](https://m.reddit.com/r/Python/comments/4hebys/cost_analysis_for_python_scripts_aws_ec2_vs_aws/) se
 propose de faire une analyse des coûts pour des scripts pythons ec2 vs lambda.
@@ -40,12 +40,10 @@ même chose sans les lambda il me faudrait genre 250 quad core de dispo. Et enco
 donc si une machine crash j'en ai une nouvelle, si je gère mon parc je rajoute un coût de maintenance non négligeable.
 
 Mais admettons, j'ai mon parc de 250 quad core. J'en fait quoi ? Rien, en vrai il ne fait rien la (très) très grande partie de son
-temps. Et parfois il va bosser à fond jusqu'à saturer. Et ensuite il ne va absolument rien faire. Et voilà, la lambda ne va être là
-que juste au moment où j'en ai besoin.
+temps. Et parfois il va bosser à fond jusqu'à saturer. Et ensuite il ne va absolument rien faire. Et voilà, la lambda va être là uniquement au moment où j'en ai besoin.
 
-Alors si on parle tarif, en restant dans les grandes lignes, un tel cluster me coûterait plusieurs dizaines de millier de dollars par mois.
-Et mes lambda me coûtent quelques dizaines de dollars par mois. Non non, je n'ai pas oublié de mot dans la phrase, et oui je suis
-un millier de fois moins cher !
+Alors si on parle tarif, en restant dans les grandes lignes, un tel cluster me coûterait plusieurs dizaines de milliers de dollars par mois.
+Et mes lambda me coûtent quelques dizaines de dollars par mois. Non non, je n'ai pas oublié de mot dans la phrase, et oui ça fait en général un facteur en centaines/millier entre les deux.
 
 Evidemment, un jour, si tout marche très (très) bien, mes lambda bosseront tellement que ça arrivera au coût d'avoir des machines dispo
 tout le temps. Et oui à ce moment là il sera peut-être intéressant de passer sur une autre solution. Mais en attendant j'ai accès
@@ -75,7 +73,7 @@ etc qui elles vont scaler correctement.
 > Comment gérer les problématiques de monitoring, log, etc ?
 
 Alors là c'est un vrai problème. Amazon fourni des stats, avec le nombre d'erreurs, etc. Mais c'est pas simple. Et le log non plus (soit
-dit en passant que le log consomme du temps). Avec le temps je me dis qu'il faudrait plutôt un système (et architecturé) les lambda pour
+dit en passant que le log consomme du temps). Avec le temps je me dis qu'il faudrait plutôt un système (et architecturer) les lambda pour
 de la résilience à la panne. Une requête met trop de temps ? On tue la lambda et on la relance. C'est tout. C'est bourrin, mais les
 "problèmes" majoritaires qu'on rencontrent seraient en vrai traités de la sorte. Il y a un système de timeout dans les lambda, on peut
 aussi accéder à ces infos depuis la lambda. A tester.
@@ -84,8 +82,8 @@ Aujourd'hui les lambda sont surtout la possibilité à quiconque d'avoir accès,
 importante en simultané, parallélisable. Alors certes il y a des difficultés, quand on a l'habitude de gérer quelques threads, gérer
 1000 exécutions concurrentes c'est pas toujours simple. Parfois ça leak tellement dans l'infrastructure qu'il faut envisager
 nos développement de manière totalement différente pour pouvoi dompter cette puissance et ne pas la freiner. Mais imaginez surtout
-que, pour un coût modique vous allez être surtout capable d'offrir des fonctionnalités et une expérience utilisateur bien plus
-satisfaisante. Vos minutes de traitements sur un serveur bien burner se transformant en secondes en parallèle, c'est autant de temps
+que, pour un coût modique vous allez être capable d'offrir des fonctionnalités et une expérience utilisateur bien plus
+satisfaisante. Vos (dizaines de) minutes de traitements sur un serveur bien puissant se transformant en secondes en parallèle, c'est autant de temps
 d'attente que vous supprimez pour vos utilisateurs. Et on sait aujourd'hui que la réactivité est un élément clé d'une
 expérience utilisateur réussie.
 
