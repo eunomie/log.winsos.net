@@ -12,7 +12,7 @@ description: "Mardi 13 septembre j'ai présenté un HumanTalk à Grenoble racont
 
 Mardi 13 septembre j'ai présenté un HumanTalk à Grenoble racontant l'histoire du développement d'une application web. D'une base tout ce qu'il y a de plus classique, il y a eu une migration de certaines portions vers du serverless. Quels en sont les raisons ? Les problèmes rencontrés ? Les gains ?
 
-<script async class="speakerdeck-embed" data-id="5440611b61a34da5a55bd348dfdedec7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async="async" class="speakerdeck-embed" data-id="5440611b61a34da5a55bd348dfdedec7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 Si certains préfèrent [voici la version pdf](humantalk_histoire_app_web_serverless.pdf).
 
