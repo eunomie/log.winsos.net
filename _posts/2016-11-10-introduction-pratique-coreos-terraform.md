@@ -24,7 +24,7 @@ A la fin de l'article vous pouvez retrouver divers liens pour aller plus loin.
 Voici donc les slides présentées, ainsi que des captures des démos (slides avec
 une fusée) et une démo supplémentaire sur la destruction de l'infrastructure.
 
-<script async class="speakerdeck-embed" data-id="0415a10ebe8c4b04af91acf5373ab5da" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async="async" class="speakerdeck-embed" data-id="0415a10ebe8c4b04af91acf5373ab5da" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 Si vous préférez [voici la version
 pdf](introduction-pratique-coreos-terraform.pdf).
