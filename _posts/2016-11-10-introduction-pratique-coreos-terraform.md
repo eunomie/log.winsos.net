@@ -31,15 +31,15 @@ pdf](introduction-pratique-coreos-terraform.pdf).
 
 ## Démo #1 : Provisionnement d'un serveur AWS
 
-<script type="text/javascript" src="https://asciinema.org/a/92142.js" id="asciicast-92142" async></script>
+<script type="text/javascript" src="https://asciinema.org/a/92142.js" id="asciicast-92142" async="async"></script>
 
 ## Démo #2 : Déploiement d'ElasticSearch dans CoreOS
 
-<script type="text/javascript" src="https://asciinema.org/a/92145.js" id="asciicast-92145" async></script>
+<script type="text/javascript" src="https://asciinema.org/a/92145.js" id="asciicast-92145" async="async"></script>
 
 ## Démo supplémentaire : Destruction de l'infrastructure
 
-<script type="text/javascript" src="https://asciinema.org/a/92147.js" id="asciicast-92147" async></script>
+<script type="text/javascript" src="https://asciinema.org/a/92147.js" id="asciicast-92147" async="async"></script>
 
 ## Aller plus loin
 
