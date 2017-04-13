@@ -5,7 +5,8 @@ title: "mgmt aux HumanTalks Grenoble"
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
-published: 2017/04/12/mgmt.png
+published: true
+image: 2017/04/12/mgmt.png
 description: "Présentation de mgmt, une nouvelle et prometteuse solution de
 gestion de configuration pour des architectures cloud native"
 ---
