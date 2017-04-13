@@ -16,6 +16,13 @@ Cette présentation a été principalement réalisée à base de démo. Mais voi
 différentes slides que j'ai présenté (très légèrement modifiés) avec quelques
 commentaires et surtout des vidéos des différentes démonstrations utilisées.
 
+> _Note_ : la présentation durant 10 minutes, je ne suis pas rentré dans les
+> détails, le but était juste de présenter un outil que probablement beaucoup
+> ne connaissent encore pas.
+
+Si vous voulez avoir directement les slides, vous pouvez les retrouver à la fin
+de l'article.
+
 ![](page_0000.jpg)
 
 > mgmt est un système de gestion de configuration, au même titre qu'Ansible,
@@ -266,3 +273,8 @@ resources:
 
 ![](page_0017.jpg)
 
+## Slides
+
+<script async="async" class="speakerdeck-embed" data-id="da8b4b4c2aca45cb88bff76b0e659e5d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+Si vous préférez [voici la version pdf](mgmt.pdf).
