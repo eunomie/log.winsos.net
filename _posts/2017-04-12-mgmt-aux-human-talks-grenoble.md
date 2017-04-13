@@ -158,7 +158,7 @@ resources:
 > Dans cette démonstration, 3 machines vont être simulées. Elles sont
 > différentiées par le
 > paramètre `--hostname` de `mgmt` et par leur répertoire de travail,
-> `/tmp/mgmtA`, `/tmp.mgmtB` et `/tmp/mgmtC`
+> `/tmp/mgmtA`, `/tmp/mgmtB` et `/tmp/mgmtC`
 
 > Chaque machine va créer un fichier et va permettre aux autres de récupérer ce
 > fichier.
