@@ -8,7 +8,7 @@ twitter: _crev_
 published: true
 ---
 
-Mardi 10 octobre (oups, c'était déjà il y a un mois) j'ai présenté deux sujets
+Mardi 10 octobre (oups, c'était déjà il y a deux mois) j'ai présenté deux sujets
 passionnant aux [HumanTalks Grenoble](https://humantalks.com/cities/grenoble/events/352) :
 
 - Docker Multi Stage Builds
