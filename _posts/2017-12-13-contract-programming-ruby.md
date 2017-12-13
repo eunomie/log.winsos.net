@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [dev, docker, prometheus, grafana, humantalks, talk]
+tags: [dev, ruby, contract_programming, humantalks, talk]
 title: "Programmation par contrat en ruby"
 author: Yves
 email: yves.brissaud@gmail.com
