@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [dev, docker, prometheus, grafana, humantalks, talk]
-title: "Human Talks: docker et metriques applicatives"
+title: "Programmation par contrat en ruby"
 author: Yves
 email: yves.brissaud@gmail.com
 twitter: _crev_
