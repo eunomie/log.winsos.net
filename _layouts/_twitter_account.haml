@@ -1,2 +1,2 @@
 - twitter_account = if @scope.twitter? then @scope.twitter else @contents.config["twitter_creator"] end
-%a.twitter-follow-button(href="https://twitter.com/#{twitter_account}" data-show-count="false")= "Follow @#{twitter_account}"
+%a.twitter-follow-button(href="https://twitter.com/#{twitter_account}" data-show-count="false")= "@#{twitter_account}"
