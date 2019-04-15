@@ -143,7 +143,7 @@ A la fin de l'article vous pourrez retrouver le pdf à télécharger.
 
 > Bien évidemment il faut que votre application soit concue pour être élastique.
 > Votre nombre de serveurs, votre nombre d'instances d'application va fréquement
-> varier. Vos clusters doit être dynamique.
+> varier. Vos clusters doivent être dynamiques.
 
 ![Multi tenant](cloud_native-20.jpg)
 
